@@ -25,7 +25,7 @@
 
   ],
   "devDependencies": {
-    "prettier": "3.7.1"
+    "prettier": "3.7.4"
   },
   "dependencies": {
     "npm-check-updates": "^19.1.2"
