@@ -11,7 +11,10 @@
         vs-w="12"
         style="margin: 20px"
       >
-        <user-form v-model="userData" disabled />
+        <user-form
+          v-model="userData"
+          disabled
+        />
       </vs-col>
     </vs-row>
     <template #footer>

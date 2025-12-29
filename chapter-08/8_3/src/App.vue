@@ -6,10 +6,16 @@
       @after-enter="onEnter"
       @after-leave="onLeave"
     >
-      <img v-if="display" alt="Vue logo" src="./assets/logo.png" />
+      <img
+        v-if="display"
+        alt="Vue logo"
+        src="./assets/logo.png"
+      >
     </transition>
     <h1>The image {{ status }}</h1>
-    <button @click="display = !display">Toggle</button>
+    <button @click="display = !display">
+      Toggle
+    </button>
   </div>
 </template>
 

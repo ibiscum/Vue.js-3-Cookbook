@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <input v-model="inputMask" v-input-mask="'###-###-###'" type="text" />
+    <input
+      v-model="inputMask"
+      v-input-mask="'###-###-###'"
+      type="text"
+    >
   </div>
 </template>
 

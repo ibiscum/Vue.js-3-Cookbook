@@ -1,12 +1,22 @@
 <template>
   <vs-row>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="12">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="12"
+    >
       <vs-card style="margin: 20px">
-        <template slot="header">
+        <template #header>
           <h3>Users</h3>
         </template>
         <vs-row>
-          <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="12">
+          <vs-col
+            vs-type="flex"
+            vs-justify="left"
+            vs-align="left"
+            vs-w="12"
+          >
             <vs-table
               :data="userList"
               search
@@ -15,17 +25,32 @@
               max-items="10"
               style="width: 100%; padding: 20px"
             >
-              <template slot="thead">
-                <vs-th sort-key="name"> # </vs-th>
-                <vs-th sort-key="name"> Name </vs-th>
-                <vs-th sort-key="email"> Email </vs-th>
-                <vs-th sort-key="country"> Country </vs-th>
-                <vs-th sort-key="phone"> Phone </vs-th>
-                <vs-th sort-key="Birthday"> Birthday </vs-th>
+              <template #thead>
+                <vs-th sort-key="name">
+                  #
+                </vs-th>
+                <vs-th sort-key="name">
+                  Name
+                </vs-th>
+                <vs-th sort-key="email">
+                  Email
+                </vs-th>
+                <vs-th sort-key="country">
+                  Country
+                </vs-th>
+                <vs-th sort-key="phone">
+                  Phone
+                </vs-th>
+                <vs-th sort-key="Birthday">
+                  Birthday
+                </vs-th>
                 <vs-th> Actions </vs-th>
               </template>
-              <template slot-scope="{ data }">
-                <vs-tr :key="index" v-for="(tr, index) in data">
+              <template #default="{ data }">
+                <vs-tr
+                  v-for="(tr, index) in data"
+                  :key="index"
+                >
                   <vs-td :data="data[index].id">
                     {{ data[index].id }}
                   </vs-td>
@@ -74,7 +99,7 @@
             </vs-table>
           </vs-col>
         </vs-row>
-        <template slot="footer">
+        <template #footer>
           <vs-row vs-justify="flex-start">
             <vs-button
               color="primary"
@@ -98,12 +123,12 @@ import changeRouteMixin from "@/mixin/changeRoute";
 export default {
   name: "ListUsers",
   mixins: [changeRouteMixin],
-  async beforeMount() {
-    await this.getAllUsers();
-  },
   data: () => ({
     userList: [],
   }),
+  async beforeMount() {
+    await this.getAllUsers();
+  },
   methods: {
     async getAllUsers() {
       const { data } = await getHttp(`api/users`);

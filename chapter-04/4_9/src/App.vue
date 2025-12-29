@@ -14,11 +14,20 @@
         The path of the righteous man is beset on all sides by the iniquities of the selfish and the
         tyranny of evil men.
       </p>
-      <template v-slot:action>
-        <MaterialButton background-color="#027be3" text-color="#fff" @click="resetVote">
+      <template #action>
+        <MaterialButton
+          background-color="#027be3"
+          text-color="#fff"
+          @click="resetVote"
+        >
           Reset
         </MaterialButton>
-        <MaterialButton background-color="#26a69a" text-color="#fff" is-flat @click="forceVote">
+        <MaterialButton
+          background-color="#26a69a"
+          text-color="#fff"
+          is-flat
+          @click="forceVote"
+        >
           Rate 5 Stars
         </MaterialButton>
       </template>

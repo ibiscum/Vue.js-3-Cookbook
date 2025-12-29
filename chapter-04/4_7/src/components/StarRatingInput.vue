@@ -22,18 +22,18 @@
 <script>
 export default {
   name: "StartRatingInput",
-  props: {
-    maxRating: {
-      type: Number,
-      required: false,
-      default: 5,
-    },
-  },
   inject: {
     starRating: {
       default() {
         console.error("StarRatingInput need to be a child of StartRating");
       },
+    },
+  },
+  props: {
+    maxRating: {
+      type: Number,
+      required: false,
+      default: 5,
     },
   },
   data: () => ({

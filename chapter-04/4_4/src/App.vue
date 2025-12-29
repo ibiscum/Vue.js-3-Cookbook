@@ -10,9 +10,18 @@
         The path of the righteous man is beset on all sides by the iniquities
         of the selfish and the tyranny of evil men.`"
     >
-      <template v-slot:action>
-        <MaterialButton background-color="#027be3" text-color="#fff"> Action 1 </MaterialButton>
-        <MaterialButton background-color="#26a69a" text-color="#fff" is-flat>
+      <template #action>
+        <MaterialButton
+          background-color="#027be3"
+          text-color="#fff"
+        >
+          Action 1
+        </MaterialButton>
+        <MaterialButton
+          background-color="#26a69a"
+          text-color="#fff"
+          is-flat
+        >
           Action 2
         </MaterialButton>
       </template>

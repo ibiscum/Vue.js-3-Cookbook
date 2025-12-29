@@ -2,9 +2,15 @@
   <div class="box">
     <div class="content">
       <ol type="1">
-        <li v-for="(task, i) in taskObject" :key="i">
+        <li
+          v-for="(task, i) in taskObject"
+          :key="i"
+        >
           {{ task }}
-          <button class="delete is-small" @click="deleteTask(i)" />
+          <button
+            class="delete is-small"
+            @click="deleteTask(i)"
+          />
         </li>
       </ol>
     </div>

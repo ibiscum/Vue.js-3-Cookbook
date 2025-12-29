@@ -5,11 +5,13 @@
       <input
         type="text"
         :value="task"
-        @input="task = $event.target.value"
         class="taskInput"
         :class="$v.task.$error ? 'fieldError' : ''"
-      />
-      <button v-on:click="addTask">Add Task</button>
+        @input="task = $event.target.value"
+      >
+      <button @click="addTask">
+        Add Task
+      </button>
     </div>
   </div>
 </template>
@@ -19,14 +21,14 @@ import { required, minLength } from "@vuelidate/validators";
 import { useVuelidate } from '@vuelidate/core'
 
 export default {
+  name: "TaskInput",
+  emits: ["add-task"],
   setup () {
     return { v$: useVuelidate() }
   },
-  name: "TaskInput",
   data: () => ({
     task: "",
   }),
-  emits: ["add-task"],
   methods: {
     addTask() {
       this.$v.$touch();

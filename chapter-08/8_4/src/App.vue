@@ -6,9 +6,15 @@
       enter-active-class="animated jackInTheBox"
       leave-active-class="animated rollOut"
     >
-      <img v-if="display" alt="Vue logo" src="./assets/logo.png" />
+      <img
+        v-if="display"
+        alt="Vue logo"
+        src="./assets/logo.png"
+      >
     </transition>
-    <button @click="display = !display">Toggle</button>
+    <button @click="display = !display">
+      Toggle
+    </button>
   </div>
 </template>
 

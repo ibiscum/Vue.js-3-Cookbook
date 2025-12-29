@@ -1,31 +1,52 @@
 <template>
   <div id="app">
     <current-time class="col-4" />
-    <task-input class="col-6" @add-task="addNewTask" />
+    <task-input
+      class="col-6"
+      @add-task="addNewTask"
+    />
     <div class="col-12">
       <div class="cardBox">
         <div class="container">
           <h2>My Tasks</h2>
-          <hr />
+          <hr>
           <div class="col-4">
-            <input v-model="hideDone" type="checkbox" id="hideDone" name="hideDone" />
+            <input
+              id="hideDone"
+              v-model="hideDone"
+              type="checkbox"
+              name="hideDone"
+            >
             <label for="hideDone"> Hide Done Tasks </label>
           </div>
           <div class="col-4">
-            <input v-model="reverse" type="checkbox" id="reverse" name="reverse" />
+            <input
+              id="reverse"
+              v-model="reverse"
+              type="checkbox"
+              name="reverse"
+            >
             <label for="reverse"> Reverse Order </label>
           </div>
           <div class="col-4">
-            <input v-model="sortById" type="checkbox" id="sortById" name="sortById" />
+            <input
+              id="sortById"
+              v-model="sortById"
+              type="checkbox"
+              name="sortById"
+            >
             <label for="sortById"> Sort By Id </label>
           </div>
           <ul class="taskList">
-            <li v-for="(taskItem, index) in displayList" :key="`${index}_${Math.random()}`">
+            <li
+              v-for="(taskItem, index) in displayList"
+              :key="`${index}_${Math.random()}`"
+            >
               <input
                 type="checkbox"
                 :checked="!!taskItem.finishedAt"
                 @input="changeStatus(taskItem.id)"
-              />
+              >
               #{{ taskItem.id }} - {{ taskItem.task }}
               <span v-if="taskItem.finishedAt">
                 | Done at:

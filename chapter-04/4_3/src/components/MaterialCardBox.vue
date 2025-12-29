@@ -1,7 +1,16 @@
 <template>
-  <div class="cardBox" :class="cardElevation">
-    <div v-if="showHeader" class="header">
-      <slot v-if="$slots.header" name="header" />
+  <div
+    class="cardBox"
+    :class="cardElevation"
+  >
+    <div
+      v-if="showHeader"
+      class="header"
+    >
+      <slot
+        v-if="$slots.header"
+        name="header"
+      />
       <div v-else>
         <h1 class="cardHeader cardText">
           {{ header }}
@@ -11,9 +20,18 @@
         </h2>
       </div>
     </div>
-    <div v-if="showMediaContent" class="media">
-      <slot v-if="$slots.media" name="media" />
-      <img v-else :src="imgSrc" />
+    <div
+      v-if="showMediaContent"
+      class="media"
+    >
+      <slot
+        v-if="$slots.media"
+        name="media"
+      />
+      <img
+        v-else
+        :src="imgSrc"
+      >
     </div>
     <div
       v-if="showMainContent"
@@ -24,12 +42,21 @@
       }"
     >
       <slot v-if="$slots.default" />
-      <p v-else class="cardText">
+      <p
+        v-else
+        class="cardText"
+      >
         {{ mainText }}
       </p>
     </div>
-    <div v-if="showActionsButtons" class="action">
-      <slot v-if="$slots.action" name="action" />
+    <div
+      v-if="showActionsButtons"
+      class="action"
+    >
+      <slot
+        v-if="$slots.action"
+        name="action"
+      />
     </div>
   </div>
 </template>

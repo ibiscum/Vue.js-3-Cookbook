@@ -3,16 +3,24 @@
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">Todo App</h1>
+          <h1 class="title">
+            Todo App
+          </h1>
         </div>
       </div>
     </section>
-    <section class="section" style="padding: 1rem">
+    <section
+      class="section"
+      style="padding: 1rem"
+    >
       <div class="container">
         <todo-list ref="list" />
       </div>
     </section>
-    <section class="section" style="padding: 1rem">
+    <section
+      class="section"
+      style="padding: 1rem"
+    >
       <div class="container">
         <todo-form @new-task="$refs.list.getTasks()" />
       </div>

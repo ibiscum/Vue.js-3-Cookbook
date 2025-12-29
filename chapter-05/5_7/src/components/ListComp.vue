@@ -4,7 +4,12 @@
       <h3>Users</h3>
     </template>
     <vs-row>
-      <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="12">
+      <vs-col
+        vs-type="flex"
+        vs-justify="left"
+        vs-align="left"
+        vs-w="12"
+      >
         <vs-table
           :data="userList"
           search
@@ -14,16 +19,31 @@
           style="width: 100%; padding: 20px"
         >
           <template #thead>
-            <vs-th sort-key="id"> # </vs-th>
-            <vs-th sort-key="name"> Name </vs-th>
-            <vs-th sort-key="email"> Email </vs-th>
-            <vs-th sort-key="country"> Country </vs-th>
-            <vs-th sort-key="phone"> Phone </vs-th>
-            <vs-th sort-key="Birthday"> Birthday </vs-th>
+            <vs-th sort-key="id">
+              #
+            </vs-th>
+            <vs-th sort-key="name">
+              Name
+            </vs-th>
+            <vs-th sort-key="email">
+              Email
+            </vs-th>
+            <vs-th sort-key="country">
+              Country
+            </vs-th>
+            <vs-th sort-key="phone">
+              Phone
+            </vs-th>
+            <vs-th sort-key="Birthday">
+              Birthday
+            </vs-th>
             <vs-th> Actions </vs-th>
           </template>
           <template #default="{ data }">
-            <vs-tr v-for="(tr, index) in data" :key="index">
+            <vs-tr
+              v-for="(tr, index) in data"
+              :key="index"
+            >
               <vs-td :data="data[index].id">
                 {{ data[index].id }}
               </vs-td>

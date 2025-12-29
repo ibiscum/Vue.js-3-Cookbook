@@ -1,6 +1,8 @@
 <template>
   <div class="cardBox elevation_2">
-    <div class="section">This is a Material Card Box</div>
+    <div class="section">
+      This is a Material Card Box
+    </div>
   </div>
 </template>
 <script>

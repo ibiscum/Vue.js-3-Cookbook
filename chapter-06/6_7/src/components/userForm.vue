@@ -1,6 +1,11 @@
 <template>
   <vs-row>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="6">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="6"
+    >
       <vs-input
         v-model="tmpForm.name"
         :disabled="disabled"
@@ -9,7 +14,12 @@
         class="inputMargin full-width"
       />
     </vs-col>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="6">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="6"
+    >
       <vs-input
         v-model="tmpForm.email"
         :disabled="disabled"
@@ -18,7 +28,12 @@
         class="inputMargin full-width"
       />
     </vs-col>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="6">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="6"
+    >
       <vs-input
         v-model="tmpForm.country"
         :disabled="disabled"
@@ -27,7 +42,12 @@
         class="inputMargin full-width"
       />
     </vs-col>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="6">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="6"
+    >
       <vs-input
         v-model="tmpForm.phone"
         :disabled="disabled"
@@ -36,7 +56,12 @@
         class="inputMargin full-width"
       />
     </vs-col>
-    <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="6">
+    <vs-col
+      vs-type="flex"
+      vs-justify="left"
+      vs-align="left"
+      vs-w="6"
+    >
       <vs-input
         v-model="tmpForm.birthday"
         :disabled="disabled"

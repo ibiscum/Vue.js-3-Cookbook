@@ -1,7 +1,10 @@
 <template>
   <div class="starRating">
     <ul>
-      <li v-for="rate in maxRating" :key="rate">
+      <li
+        v-for="rate in maxRating"
+        :key="rate"
+      >
         <i class="material-icons">
           {{ getStarName(rate) }}
         </i>
@@ -10,7 +13,10 @@
     <span class="rating">
       {{ rating }}
     </span>
-    <span v-if="votes" class="votes"> ({{ votes }}) </span>
+    <span
+      v-if="votes"
+      class="votes"
+    > ({{ votes }}) </span>
   </div>
 </template>
 

@@ -2,12 +2,14 @@
   "name": "vue.js-3.0-cookbook",
   "lockfileVersion": 3,
   "requires": true,
+  "type":"module",
+  "private": true,
   "scripts": {
     "format": "prettier . --write",
     "lint": "eslint --fix"
   },
   "workspaces": [
-    "./chapter-02/*"
+    "chapter-02/*"
   ],
   "devDependencies": {
     "prettier": "3.7.4"

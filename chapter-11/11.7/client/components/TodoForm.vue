@@ -8,10 +8,13 @@
           type="text"
           placeholder="ToDo Task"
           @keypress.enter="save"
-        />
+        >
       </div>
       <div class="control">
-        <a class="button is-info" @click="save"> Save Task </a>
+        <a
+          class="button is-info"
+          @click="save"
+        > Save Task </a>
       </div>
     </div>
   </div>

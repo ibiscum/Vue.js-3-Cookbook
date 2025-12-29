@@ -12,7 +12,10 @@
     }"
     v-on="listeners"
   >
-    <div tabindex="-1" class="button_focus_helper" />
+    <div
+      tabindex="-1"
+      class="button_focus_helper"
+    />
     <slot />
   </button>
 </template>

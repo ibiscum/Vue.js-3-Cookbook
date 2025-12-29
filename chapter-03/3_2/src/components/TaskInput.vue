@@ -2,7 +2,11 @@
   <div class="cardBox">
     <div class="container tasker">
       <strong>My task is: {{ task }}</strong>
-      <input v-model="task" type="text" class="taskInput" />
+      <input
+        v-model="task"
+        type="text"
+        class="taskInput"
+      >
     </div>
   </div>
 </template>

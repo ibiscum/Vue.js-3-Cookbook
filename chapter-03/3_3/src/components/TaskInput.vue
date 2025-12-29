@@ -2,8 +2,14 @@
   <div class="cardBox">
     <div class="container tasker">
       <strong>My task is:</strong>
-      <input v-model="task" type="text" class="taskInput" />
-      <button @click="addTask">Add Task</button>
+      <input
+        v-model="task"
+        type="text"
+        class="taskInput"
+      >
+      <button @click="addTask">
+        Add Task
+      </button>
     </div>
   </div>
 </template>

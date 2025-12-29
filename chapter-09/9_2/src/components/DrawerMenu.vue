@@ -1,7 +1,15 @@
 <template>
-  <v-navigation-drawer :value="value" app @input="$emit('input', $event)">
+  <v-navigation-drawer
+    :value="value"
+    app
+    @input="$emit('input', $event)"
+  >
     <v-list dense>
-      <v-list-item v-for="(item, index) in menu" :key="index" link>
+      <v-list-item
+        v-for="(item, index) in menu"
+        :key="index"
+        link
+      >
         <v-list-item-action>
           <v-icon>{{ item.icon }}</v-icon>
         </v-list-item-action>

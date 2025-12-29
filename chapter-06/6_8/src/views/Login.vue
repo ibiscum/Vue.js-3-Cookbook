@@ -1,33 +1,43 @@
 <template>
   <div class="container">
-    <vs-row vs-align="center" vs-justify="center">
-      <vs-col vs-lg="4" vs-sm="6" vs-xs="10">
+    <vs-row
+      vs-align="center"
+      vs-justify="center"
+    >
+      <vs-col
+        vs-lg="4"
+        vs-sm="6"
+        vs-xs="10"
+      >
         <vs-card style="margin: 20px">
-          <template slot="header">
+          <template #header>
             <h3>User Login</h3>
           </template>
-          <vs-row vs-align="center" vs-justify="center">
+          <vs-row
+            vs-align="center"
+            vs-justify="center"
+          >
             <vs-col vs-w="12">
               <vs-input
+                v-model="username"
                 :danger="error"
                 danger-text="Check your username or email"
                 label="Username"
                 placeholder="Username or e-mail"
-                v-model="username"
               />
             </vs-col>
             <vs-col vs-w="12">
               <vs-input
+                v-model="password"
                 :danger="error"
                 label="Password"
                 type="password"
                 danger-text="Check your password"
                 placeholder="Your password"
-                v-model="password"
               />
             </vs-col>
           </vs-row>
-          <template slot="footer">
+          <template #footer>
             <vs-row vs-justify="flex-start">
               <vs-button
                 color="success"

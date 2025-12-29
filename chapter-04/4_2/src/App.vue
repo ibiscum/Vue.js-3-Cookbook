@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <MaterialCardBox>
-      <template v-slot:header>
-        <strong>Card Title</strong><br />
+      <template #header>
+        <strong>Card Title</strong><br>
         <span>Card Sub-Title</span>
       </template>
-      <template v-slot:media>
-        <img src="https://via.placeholder.com/350x150" />
+      <template #media>
+        <img src="https://via.placeholder.com/350x150">
       </template>
       <p>Main Section</p>
-      <template v-slot:action>
+      <template #action>
         <button>Action Button</button>
         <button>Action Button</button>
       </template>

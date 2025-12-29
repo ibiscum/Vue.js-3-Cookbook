@@ -1,18 +1,24 @@
 <template>
   <div id="app">
     <current-time class="col-4" />
-    <task-input class="col-6" @add-task="addNewTask" />
+    <task-input
+      class="col-6"
+      @add-task="addNewTask"
+    />
     <div class="col-12">
       <div class="cardBox">
         <div class="container">
           <h2>My Tasks</h2>
           <ul class="taskList">
-            <li v-for="(taskItem, index) in displayList" :key="`${index}_${Math.random()}`">
+            <li
+              v-for="(taskItem, index) in displayList"
+              :key="`${index}_${Math.random()}`"
+            >
               <input
                 type="checkbox"
                 :checked="!!taskItem.finishedAt"
                 @input="changeStatus(index)"
-              />
+              >
               {{ taskItem.task }}
               <span v-if="taskItem.finishedAt">
                 | Done at:

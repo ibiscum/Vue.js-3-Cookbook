@@ -2,7 +2,7 @@
   <div id="app">
     <h3>Response</h3>
     <pre>{{ response }}</pre>
-    <hr />
+    <hr>
     <h1>Create / Update User</h1>
     <label for="userData">
       User JSON:
@@ -12,17 +12,36 @@
         rows="10"
         cols="40"
         style="display: block"
-      ></textarea>
+      />
     </label>
-    <button style="margin: 20px" @click="createUser(JSON.parse(userData))">Create User</button>
-    <button style="margin: 20px" @click="updateUser(JSON.parse(userData))">Update User</button>
-    <hr />
+    <button
+      style="margin: 20px"
+      @click="createUser(JSON.parse(userData))"
+    >
+      Create User
+    </button>
+    <button
+      style="margin: 20px"
+      @click="updateUser(JSON.parse(userData))"
+    >
+      Update User
+    </button>
+    <hr>
     <h1>Delete User</h1>
     <label for="userData">
       User Id:
-      <input type="number" step="1" v-model="userId" />
+      <input
+        v-model="userId"
+        type="number"
+        step="1"
+      >
     </label>
-    <button style="margin: 20px" @click="deleteUser(userId)">Delete User</button>
+    <button
+      style="margin: 20px"
+      @click="deleteUser(userId)"
+    >
+      Delete User
+    </button>
   </div>
 </template>
 
@@ -30,7 +49,7 @@
 import { getHttp, postHttp, patchHttp, deleteHttp } from "./http/fetchApi";
 
 export default {
-  name: "app",
+  name: "App",
   data: () => ({
     response: undefined,
     userData: "",

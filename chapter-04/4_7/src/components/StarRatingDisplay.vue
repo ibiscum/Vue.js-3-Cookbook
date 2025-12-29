@@ -1,7 +1,10 @@
 <template>
   <div class="starRating">
     <ul>
-      <li v-for="rate in maxRating" :key="rate">
+      <li
+        v-for="rate in maxRating"
+        :key="rate"
+      >
         <i class="material-icons">
           {{ getStarName(rate) }}
         </i>
@@ -10,13 +13,23 @@
     <span class="rating">
       {{ rating }}
     </span>
-    <span v-if="votes" class="votes"> ({{ votes }}) </span>
+    <span
+      v-if="votes"
+      class="votes"
+    > ({{ votes }}) </span>
   </div>
 </template>
 
 <script>
 export default {
   name: "StarRatingDisplay",
+  inject: {
+    starRating: {
+      default() {
+        console.error("StarRatingDisplay need to be a child of StarRating");
+      },
+    },
+  },
   props: {
     maxRating: {
       type: Number,
@@ -32,13 +45,6 @@ export default {
       type: Number,
       required: false,
       default: 0,
-    },
-  },
-  inject: {
-    starRating: {
-      default() {
-        console.error("StarRatingDisplay need to be a child of StarRating");
-      },
     },
   },
   methods: {

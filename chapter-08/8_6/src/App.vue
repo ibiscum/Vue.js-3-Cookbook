@@ -1,9 +1,15 @@
 <template>
   <div id="app">
     <custom-transition>
-      <img v-if="display" alt="Vue logo" src="./assets/logo.png" />
+      <img
+        v-if="display"
+        alt="Vue logo"
+        src="./assets/logo.png"
+      >
     </custom-transition>
-    <button @click="display = !display">Toggle</button>
+    <button @click="display = !display">
+      Toggle
+    </button>
   </div>
 </template>
 

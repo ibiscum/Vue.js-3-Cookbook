@@ -1,10 +1,24 @@
 <template>
   <div id="app">
-    <transition name="rotate" mode="out-in">
-      <img v-if="display" key="up" src="./assets/logo.png" />
-      <img v-else key="down" src="./assets/logo.png" style="transform: rotate(180deg)" />
+    <transition
+      name="rotate"
+      mode="out-in"
+    >
+      <img
+        v-if="display"
+        key="up"
+        src="./assets/logo.png"
+      >
+      <img
+        v-else
+        key="down"
+        src="./assets/logo.png"
+        style="transform: rotate(180deg)"
+      >
     </transition>
-    <button @click="display = !display">Toggle</button>
+    <button @click="display = !display">
+      Toggle
+    </button>
   </div>
 </template>
 

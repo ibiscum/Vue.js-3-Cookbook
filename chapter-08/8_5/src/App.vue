@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <transition-group tag="ul" enter-active-class="animated zoomIn">
-      <li v-for="i in count" :key="i" style="float: left">
-        <img src="https://picsum.photos/100" />
+    <transition-group
+      tag="ul"
+      enter-active-class="animated zoomIn"
+    >
+      <li
+        v-for="i in count"
+        :key="i"
+        style="float: left"
+      >
+        <img src="https://picsum.photos/100">
       </li>
     </transition-group>
-    <hr style="clear: both" />
-    <button @click="count = count + 1">Increase</button>
+    <hr style="clear: both">
+    <button @click="count = count + 1">
+      Increase
+    </button>
   </div>
 </template>
 

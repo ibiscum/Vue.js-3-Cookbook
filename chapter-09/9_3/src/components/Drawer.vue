@@ -1,7 +1,17 @@
 <template>
-  <a-layout-sider v-model="drawer" collapsible>
-    <a-menu :default-selected-keys="['1']" theme="dark" mode="inline">
-      <a-menu-item v-for="(item, index) in menu" :key="index">
+  <a-layout-sider
+    v-model="drawer"
+    collapsible
+  >
+    <a-menu
+      :default-selected-keys="['1']"
+      theme="dark"
+      mode="inline"
+    >
+      <a-menu-item
+        v-for="(item, index) in menu"
+        :key="index"
+      >
         <a-icon :type="item.icon" />
         <span>{{ item.name }}</span>
       </a-menu-item>
