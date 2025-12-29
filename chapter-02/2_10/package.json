@@ -1,5 +1,5 @@
 {
-  "name": "2_10",
+  "name": "@chapter-02/2_10",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,15 +9,13 @@
     "lint": "eslint --fix"
   },
   "dependencies": {
-    "vue": "^3.5.24",
-    "vue-class-component": "^7.2.6",
-    "vue-property-decorator": "^9.1.2",
-    "vue-router": "^4.6.3"
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "eslint": "^9.39.1",
-    "eslint-plugin-vue": "^10.5.1",
-    "lint-staged": "^16.2.6",
+    "eslint": "^9.39.2",
+    "eslint-plugin-vue": "^10.6.2",
+    "lint-staged": "^16.2.7",
     "stylus": "^0.64.0",
     "stylus-loader": "^8.1.2",
     "typescript": "^5.9.3"
