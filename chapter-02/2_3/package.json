@@ -1,9 +1,11 @@
 {
-  "name": "@chapter-02/2_3",
+  "name": "2_3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc index.ts animal.ts",
+    "start":  "pnpm run build | node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
