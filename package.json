@@ -6,16 +6,10 @@
   "private": true,
   "scripts": {
     "format": "prettier . --write",
-    "lint": "eslint --fix"
-  },
-  "workspaces": [
-    "chapter-02/*"
-  ],
-  "devDependencies": {
-    "prettier": "3.8.1"
+    "lint": "eslint --fix ."
   },
   "dependencies": {
-    "npm-check-updates": "^19.1.2",
-    "typescript": "^5.9.3"
+    "eslint": "^10.1.0",
+    "eslint-plugin-vue": "^10.8.0"
   }
 }
