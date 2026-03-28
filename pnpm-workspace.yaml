@@ -12,4 +12,8 @@ packages:
   - 'chapter-11/*'
 
 onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - electron
   - esbuild
+  - highlight.js
