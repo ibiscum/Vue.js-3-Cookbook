@@ -32,11 +32,11 @@ importers:
   chapter-02/2_10:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^5.0.3
-        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3))
+        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0)
     devDependencies:
       eslint:
         specifier: ^10.0.2
@@ -60,8 +60,8 @@ importers:
   chapter-02/2_11:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       eslint:
         specifier: ^10.0.2
@@ -93,13 +93,13 @@ importers:
         version: 6.5.0(picomatch@4.0.4)
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.0)
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^5.0.3
-        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3))
+        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0)
     devDependencies:
       '@tsconfig/node24':
         specifier: ^24.0.4
@@ -112,7 +112,7 @@ importers:
         version: 25.5.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.4
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       '@vitest/eslint-plugin':
         specifier: ^1.6.6
         version: 1.6.13(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)))
@@ -124,7 +124,7 @@ importers:
         version: 2.4.6
       '@vue/tsconfig':
         specifier: ^0.8.1
-        version: 0.8.1(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 0.8.1(typescript@5.9.3)(vue@3.0.0)
       eslint:
         specifier: ^10.0.2
         version: 10.1.0(jiti@2.6.1)
@@ -148,7 +148,7 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.6
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.18
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
@@ -160,23 +160,23 @@ importers:
     dependencies:
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^5.0.3
-        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3))
+        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
         version: 9.39.4
       '@vitejs/plugin-vue':
         specifier: ^6.0.4
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       eslint:
         specifier: ^10.0.2
         version: 10.1.0(jiti@2.6.1)
@@ -196,8 +196,8 @@ importers:
   chapter-02/2_6:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       eslint:
         specifier: ^10.0.2
@@ -221,8 +221,8 @@ importers:
   chapter-02/2_7:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       eslint:
         specifier: ^10.0.2
@@ -246,12 +246,12 @@ importers:
   chapter-02/2_8:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.3
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       eslint:
         specifier: ^10.0.2
         version: 10.1.0(jiti@2.6.1)
@@ -283,12 +283,12 @@ importers:
   chapter-02/2_9:
     dependencies:
       vue:
-        specifier: ^3.5.29
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.3
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       eslint:
         specifier: ^10.0.2
         version: 10.1.0(jiti@2.6.1)
@@ -320,12 +320,12 @@ importers:
   chapter-03/3_1:
     dependencies:
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.3
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       lint-staged:
         specifier: ^16.2.6
         version: 16.4.0
@@ -343,22 +343,22 @@ importers:
     dependencies:
       '@vuelidate/core':
         specifier: ^2.0.3
-        version: 2.0.3(vue@3.5.31(typescript@5.9.3))
+        version: 2.0.3(vue@3.0.0)
       '@vuelidate/validators':
         specifier: ^2.0.4
-        version: 2.0.4(vue@3.5.31(typescript@5.9.3))
+        version: 2.0.4(vue@3.0.0)
       vite:
         specifier: ^7.2.2
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.3
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -386,13 +386,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       eslint-plugin-vue:
         specifier: ^10.6.2
@@ -414,13 +414,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -448,13 +448,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -482,13 +482,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -516,13 +516,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -550,13 +550,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -581,22 +581,22 @@ importers:
     dependencies:
       '@vuelidate/core':
         specifier: ^2.0.3
-        version: 2.0.3(vue@3.5.31(typescript@5.9.3))
+        version: 2.0.3(vue@3.0.0)
       '@vuelidate/validators':
         specifier: ^2.0.4
-        version: 2.0.4(vue@3.5.31(typescript@5.9.3))
+        version: 2.0.4(vue@3.0.0)
       vite:
         specifier: ^7.3.0
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.15
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -630,13 +630,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.3
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -664,13 +664,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.3
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -944,36 +944,36 @@ importers:
         specifier: ^0.1.31
         version: 0.1.48
       sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
+        specifier: ^9.0.0
+        version: 9.0.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuesax:
         specifier: ^3.10.8
         version: 3.12.2
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-plugin-router':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-plugin-vuex':
         specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1011,36 +1011,36 @@ importers:
         specifier: ^0.1.31
         version: 0.1.48
       sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
+        specifier: ^9.0.0
+        version: 9.0.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuesax:
         specifier: ^3.10.8
         version: 3.12.2
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-plugin-router':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-plugin-vuex':
         specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1078,36 +1078,36 @@ importers:
         specifier: ^0.1.31
         version: 0.1.48
       sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
+        specifier: ^9.0.0
+        version: 9.0.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuesax:
         specifier: ^3.10.8
         version: 3.12.2
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-plugin-router':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-plugin-vuex':
         specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1145,36 +1145,36 @@ importers:
         specifier: ^0.1.31
         version: 0.1.48
       sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
+        specifier: ^9.0.0
+        version: 9.0.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuesax:
         specifier: ^3.10.8
         version: 3.12.2
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-plugin-router':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-plugin-vuex':
         specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1212,36 +1212,36 @@ importers:
         specifier: ^0.1.31
         version: 0.1.48
       sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
+        specifier: ^9.0.0
+        version: 9.0.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuesax:
         specifier: ^3.10.8
         version: 3.12.2
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-plugin-router':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-plugin-vuex':
         specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1268,20 +1268,20 @@ importers:
     dependencies:
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.0)
       vue:
-        specifier: ^3.5.27
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^5.0.1
-        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3))
+        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
         version: 9.39.4
       '@vitejs/plugin-vue':
         specifier: ^6.0.3
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       '@vitest/eslint-plugin':
         specifier: ^1.6.6
         version: 1.6.13(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)))
@@ -1320,7 +1320,7 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.18
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
@@ -1334,21 +1334,21 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1374,21 +1374,21 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1414,21 +1414,21 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1454,21 +1454,21 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1489,11 +1489,11 @@ importers:
     dependencies:
       vue:
         specifier: ^3.0.0
-        version: 3.5.31(typescript@5.9.3)
+        version: 3.0.0
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.3
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       eslint:
         specifier: ^9.39.2
         version: 9.39.4(jiti@2.6.1)
@@ -1528,21 +1528,21 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1563,7 +1563,7 @@ importers:
     dependencies:
       buefy:
         specifier: ^3.0.3
-        version: 3.0.4(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(vue@3.0.0)
       sass-embedded:
         specifier: ^1.93.3
         version: 1.98.0
@@ -1572,13 +1572,13 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -1603,7 +1603,7 @@ importers:
     dependencies:
       buefy:
         specifier: ^3.0.3
-        version: 3.0.4(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(vue@3.0.0)
       sass-embedded:
         specifier: ^1.93.3
         version: 1.98.0
@@ -1612,16 +1612,16 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vuetify:
         specifier: ^3.10.11
-        version: 3.12.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.12.4(typescript@5.9.3)(vue@3.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -1646,7 +1646,7 @@ importers:
     dependencies:
       buefy:
         specifier: ^3.0.3
-        version: 3.0.4(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(vue@3.0.0)
       sass-embedded:
         specifier: ^1.93.3
         version: 1.98.0
@@ -1655,16 +1655,16 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.0.5
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.0.13
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
       vue:
-        specifier: ^3.5.25
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vuetify:
         specifier: ^3.10.11
-        version: 3.12.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.12.4(typescript@5.9.3)(vue@3.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -1709,18 +1709,18 @@ importers:
         specifier: ^3.6.4
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.1.5
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
       vuex:
         specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.2.0
-        version: 4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ~4.2.0
         version: 4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))(eslint@6.8.0)
@@ -1758,27 +1758,27 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^3.2.0
-        version: 3.6.5(vue@2.7.16)
+        version: 3.6.5(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-plugin-router':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1801,27 +1801,27 @@ importers:
         specifier: ^3.6.5
         version: 3.49.0
       vue:
-        specifier: ^2.6.11
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
       vuex:
         specifier: ^3.4.0
-        version: 3.6.2(vue@2.7.16)
+        version: 3.6.2(vue@3.0.0)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)
       '@vue/cli-plugin-vuex':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-service':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@6.8.0)
@@ -1844,18 +1844,18 @@ importers:
         specifier: ^3.1.2
         version: 3.49.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1878,18 +1878,18 @@ importers:
         specifier: ^3.1.2
         version: 3.49.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1940,18 +1940,18 @@ importers:
         specifier: ^3.1.2
         version: 3.49.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -1974,18 +1974,18 @@ importers:
         specifier: ^3.1.2
         version: 3.49.0
       vue:
-        specifier: ^2.6.10
-        version: 2.7.16
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
         version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
@@ -2006,20 +2006,20 @@ importers:
     dependencies:
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.0)
       vue:
-        specifier: ^3.5.31
-        version: 3.5.31(typescript@5.9.3)
+        specifier: ^3.0.0
+        version: 3.0.0
       vue-router:
         specifier: ^5.0.4
-        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3))
+        version: 5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.4
         version: 9.39.4
       '@vitejs/plugin-vue':
         specifier: ^6.0.5
-        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       '@vitest/eslint-plugin':
         specifier: ^1.6.13
         version: 1.6.13(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)))
@@ -2038,9 +2038,6 @@ importers:
       jsdom:
         specifier: ^27.4.0
         version: 27.4.0
-      npm-run-all2:
-        specifier: ^8.0.4
-        version: 8.0.4
       oxfmt:
         specifier: ^0.27.0
         version: 0.27.0
@@ -2052,7 +2049,7 @@ importers:
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
       vite-plugin-vue-devtools:
         specifier: ^8.1.1
-        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))
+        version: 8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)
       vitest:
         specifier: ^4.1.2
         version: 4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))
@@ -3182,25 +3179,21 @@ packages:
     resolution: {integrity: sha512-aql/LLYriX/5Ar7o5Qivnp/qMTUPNiOCr7cFLvmvzYZa3XL0H8XtbKUfIVm+9ILR0urXQzcml+L8pLe1p8sgEg==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@oxfmt/linux-arm64-musl@0.27.0':
     resolution: {integrity: sha512-6u/kNb7hubthg4u/pn3MK/GJLwPgjDvDDnjjr7TC0/OK/xztef8ToXmycxIQ9OeDNIJJf7Z0Ss/rHnKvQOWzRw==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@oxfmt/linux-x64-gnu@0.27.0':
     resolution: {integrity: sha512-EhvDfFHO1yrK/Cu75eU1U828lBsW2cV0JITOrka5AjR3PlmnQQ03Mr9ROkWkbPmzAMklXI4Q16eO+4n+7FhS1w==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@oxfmt/linux-x64-musl@0.27.0':
     resolution: {integrity: sha512-1pgjuwMT5sCekuteYZ7LkDsto7DJouaccwjozHqdWohSj2zJpFeSP2rMaC+6JJ1KD5r9HG9sWRuHZGEaoX9uOw==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@oxfmt/win32-arm64@0.27.0':
     resolution: {integrity: sha512-mmuEhXZEhAYAeyjVTWwGKIA3RSb2b/He9wrXkDJPhmqp8qISUzkVg1dQmLEt4hD+wI5rzR+6vchPt521tzuRDA==}
@@ -3226,25 +3219,21 @@ packages:
     resolution: {integrity: sha512-j4QzfCM8ks+OyM+KKYWDiBEQsm5RCW50H1Wz16wUyoFsobJ+X5qqcJxq6HvkE07m8euYmZelyB0WqsiDoz1v8g==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@oxlint/linux-arm64-musl@1.42.0':
     resolution: {integrity: sha512-g5b1Uw7zo6yw4Ymzyd1etKzAY7xAaGA3scwB8tAp3QzuY7CYdfTwlhiLKSAKbd7T/JBgxOXAGNcLDorJyVTXcg==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@oxlint/linux-x64-gnu@1.42.0':
     resolution: {integrity: sha512-HnD99GD9qAbpV4q9iQil7mXZUJFpoBdDavfcC2CgGLPlawfcV5COzQPNwOgvPVkr7C0cBx6uNCq3S6r9IIiEIg==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@oxlint/linux-x64-musl@1.42.0':
     resolution: {integrity: sha512-8NTe8A78HHFn+nBi+8qMwIjgv9oIBh+9zqCPNLH56ah4vKOPvbePLI6NIv9qSkmzrBuu8SB+FJ2TH/G05UzbNA==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@oxlint/win32-arm64@1.42.0':
     resolution: {integrity: sha512-lAPS2YAuu+qFqoTNPFcNsxXjwSV0M+dOgAzzVTAN7Yo2ifj+oLOx0GsntWoM78PvQWI7Q827ZxqtU2ImBmDapA==}
@@ -3285,42 +3274,36 @@ packages:
     engines: {node: '>= 10.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-arm-musl@2.5.6':
     resolution: {integrity: sha512-Ve3gUCG57nuUUSyjBq/MAM0CzArtuIOxsBdQ+ftz6ho8n7s1i9E1Nmk/xmP323r2YL0SONs1EuwqBp2u1k5fxg==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-linux-arm64-glibc@2.5.6':
     resolution: {integrity: sha512-f2g/DT3NhGPdBmMWYoxixqYr3v/UXcmLOYy16Bx0TM20Tchduwr4EaCbmxh1321TABqPGDpS8D/ggOTaljijOA==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-arm64-musl@2.5.6':
     resolution: {integrity: sha512-qb6naMDGlbCwdhLj6hgoVKJl2odL34z2sqkC7Z6kzir8b5W65WYDpLB6R06KabvZdgoHI/zxke4b3zR0wAbDTA==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-linux-x64-glibc@2.5.6':
     resolution: {integrity: sha512-kbT5wvNQlx7NaGjzPFu8nVIW1rWqV780O7ZtkjuWaPUgpv2NMFpjYERVi0UYj1msZNyCzGlaCWEtzc+exjMGbQ==}
     engines: {node: '>= 10.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-x64-musl@2.5.6':
     resolution: {integrity: sha512-1JRFeC+h7RdXwldHzTsmdtYR/Ku8SylLgTU/reMuqdVD7CtLwf0VR1FqeprZ0eHQkO0vqsbvFLXUmYm/uNKJBg==}
     engines: {node: '>= 10.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-win32-arm64@2.5.6':
     resolution: {integrity: sha512-3ukyebjc6eGlw9yRt678DxVF7rjXatWiHvTXqphZLvo7aC5NdEgFufVwjFfY51ijYEWpXbqF5jtrK275z52D4Q==}
@@ -3455,79 +3438,66 @@ packages:
     resolution: {integrity: sha512-RzeBwv0B3qtVBWtcuABtSuCzToo2IEAIQrcyB/b2zMvBWVbjo8bZDjACUpnaafaxhTw2W+imQbP2BD1usasK4g==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.60.0':
     resolution: {integrity: sha512-Sf7zusNI2CIU1HLzuu9Tc5YGAHEZs5Lu7N1ssJG4Tkw6e0MEsN7NdjUDDfGNHy2IU+ENyWT+L2obgWiguWibWQ==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.60.0':
     resolution: {integrity: sha512-DX2x7CMcrJzsE91q7/O02IJQ5/aLkVtYFryqCjduJhUfGKG6yJV8hxaw8pZa93lLEpPTP/ohdN4wFz7yp/ry9A==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.60.0':
     resolution: {integrity: sha512-09EL+yFVbJZlhcQfShpswwRZ0Rg+z/CsSELFCnPt3iK+iqwGsI4zht3secj5vLEs957QvFFXnzAT0FFPIxSrkQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-loong64-gnu@4.60.0':
     resolution: {integrity: sha512-i9IcCMPr3EXm8EQg5jnja0Zyc1iFxJjZWlb4wr7U2Wx/GrddOuEafxRdMPRYVaXjgbhvqalp6np07hN1w9kAKw==}
     cpu: [loong64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-loong64-musl@4.60.0':
     resolution: {integrity: sha512-DGzdJK9kyJ+B78MCkWeGnpXJ91tK/iKA6HwHxF4TAlPIY7GXEvMe8hBFRgdrR9Ly4qebR/7gfUs9y2IoaVEyog==}
     cpu: [loong64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-ppc64-gnu@4.60.0':
     resolution: {integrity: sha512-RwpnLsqC8qbS8z1H1AxBA1H6qknR4YpPR9w2XX0vo2Sz10miu57PkNcnHVaZkbqyw/kUWfKMI73jhmfi9BRMUQ==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-ppc64-musl@4.60.0':
     resolution: {integrity: sha512-Z8pPf54Ly3aqtdWC3G4rFigZgNvd+qJlOE52fmko3KST9SoGfAdSRCwyoyG05q1HrrAblLbk1/PSIV+80/pxLg==}
     cpu: [ppc64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-riscv64-gnu@4.60.0':
     resolution: {integrity: sha512-3a3qQustp3COCGvnP4SvrMHnPQ9d1vzCakQVRTliaz8cIp/wULGjiGpbcqrkv0WrHTEp8bQD/B3HBjzujVWLOA==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.60.0':
     resolution: {integrity: sha512-pjZDsVH/1VsghMJ2/kAaxt6dL0psT6ZexQVrijczOf+PeP2BUqTHYejk3l6TlPRydggINOeNRhvpLa0AYpCWSQ==}
     cpu: [riscv64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.60.0':
     resolution: {integrity: sha512-3ObQs0BhvPgiUVZrN7gqCSvmFuMWvWvsjG5ayJ3Lraqv+2KhOsp+pUbigqbeWqueGIsnn+09HBw27rJ+gYK4VQ==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.60.0':
     resolution: {integrity: sha512-EtylprDtQPdS5rXvAayrNDYoJhIz1/vzN2fEubo3yLE7tfAw+948dO0g4M0vkTVFhKojnF+n6C8bDNe+gDRdTg==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.60.0':
     resolution: {integrity: sha512-k09oiRCi/bHU9UVFqD17r3eJR9bn03TyKraCrlz5ULFJGdJGi7VOmm9jl44vOJvRJ6P7WuBi/s2A97LxxHGIdw==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-openbsd-x64@4.60.0':
     resolution: {integrity: sha512-1o/0/pIhozoSaDJoDcec+IVLbnRtQmHwPV730+AOD29lHEEo4F5BEUB24H0OBdhbBBDwIOSuf7vgg0Ywxdfiiw==}
@@ -4077,8 +4047,14 @@ packages:
   '@vue/cli-shared-utils@4.5.19':
     resolution: {integrity: sha512-JYpdsrC/d9elerKxbEUtmSSU6QRM60rirVubOewECHkBHj+tLNznWq/EhCjswywtePyLaMUK25eTqnTSZlEE+g==}
 
+  '@vue/compiler-core@3.0.0':
+    resolution: {integrity: sha512-XqPC7vdv4rFE77S71oCHmT1K4Ks3WE2Gi6Lr4B5wn0Idmp+NyQQBUHsCNieMDRiEpgtJrw+yOHslrsV0AfAsfQ==}
+
   '@vue/compiler-core@3.5.31':
     resolution: {integrity: sha512-k/ueL14aNIEy5Onf0OVzR8kiqF/WThgLdFhxwa4e/KF/0qe38IwIdofoSWBTvvxQOesaz6riAFAUaYjoF9fLLQ==}
+
+  '@vue/compiler-dom@3.0.0':
+    resolution: {integrity: sha512-ukDEGOP8P7lCPyStuM3F2iD5w2QPgUu2xwCW2XNeqPjFKIlR2xMsWjy4raI/cLjN6W16GtlMFaZdK8tLj5PRog==}
 
   '@vue/compiler-dom@3.5.31':
     resolution: {integrity: sha512-BMY/ozS/xxjYqRFL+tKdRpATJYDTTgWSo0+AJvJNg4ig+Hgb0dOsHPXvloHQ5hmlivUqw1Yt2pPIqp4e0v1GUw==}
@@ -4149,19 +4125,17 @@ packages:
       html-webpack-plugin: '>=2.26.0'
       webpack: '>=4.0.0'
 
-  '@vue/reactivity@3.5.31':
-    resolution: {integrity: sha512-DtKXxk9E/KuVvt8VxWu+6Luc9I9ETNcqR1T1oW1gf02nXaZ1kuAx58oVu7uX9XxJR0iJCro6fqBLw9oSBELo5g==}
+  '@vue/reactivity@3.0.0':
+    resolution: {integrity: sha512-mEGkztGQrAPZRhV7C6PorrpT3+NtuA4dY2QjMzzrW31noKhssWTajRZTwpLF39NBRrF5UU6cp9+1I0FfavMgEQ==}
 
-  '@vue/runtime-core@3.5.31':
-    resolution: {integrity: sha512-AZPmIHXEAyhpkmN7aWlqjSfYynmkWlluDNPHMCZKFHH+lLtxP/30UJmoVhXmbDoP1Ng0jG0fyY2zCj1PnSSA6Q==}
+  '@vue/runtime-core@3.0.0':
+    resolution: {integrity: sha512-3ABMLeA0ZbeVNLbGGLXr+pNUwqXILOqz8WCVGfDWwQb+jW114Cm8djOHVVDoqdvRETQvDf8yHSUmpKHZpQuTkA==}
 
-  '@vue/runtime-dom@3.5.31':
-    resolution: {integrity: sha512-xQJsNRmGPeDCJq/u813tyonNgWBFjzfVkBwDREdEWndBnGdHLHgkwNBQxLtg4zDrzKTEcnikUy1UUNecb3lJ6g==}
+  '@vue/runtime-dom@3.0.0':
+    resolution: {integrity: sha512-f312n5w9gK6mVvkDSj6/Xnot1XjlKXzFBYybmoy6ahAVC8ExbQ+LOWti1IZM/adU8VMNdKaw7Q53Hxz3y5jX8g==}
 
-  '@vue/server-renderer@3.5.31':
-    resolution: {integrity: sha512-GJuwRvMcdZX/CriUnyIIOGkx3rMV3H6sOu0JhdKbduaeCji6zb60iOGMY7tFoN24NfsUYoFBhshZtGxGpxO4iA==}
-    peerDependencies:
-      vue: 3.5.31
+  '@vue/shared@3.0.0':
+    resolution: {integrity: sha512-4XWL/avABGxU2E2ZF1eZq3Tj7fvksCMssDZUHOykBIMmh5d+KcAnQMC5XHMhtnA0NAvktYsA2YpdsVwVmhWzvA==}
 
   '@vue/shared@3.5.31':
     resolution: {integrity: sha512-nBxuiuS9Lj5bPkPbWogPUnjxxWpkRniX7e5UBQDWl6Fsf4roq9wwV+cR7ezQ4zXswNvPIlsdj1slcLB7XCsRAw==}
@@ -5666,6 +5640,9 @@ packages:
   cssstyle@5.3.7:
     resolution: {integrity: sha512-7D2EPVltRrsTkhpQmksIu+LxeWAIEk6wRDMJ1qljlv+CKHJM+cJLlfhWIzNA44eAsHXSNe3+vO6DW1yCYx8SuQ==}
     engines: {node: '>=20'}
+
+  csstype@2.6.21:
+    resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
@@ -9733,56 +9710,48 @@ packages:
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: glibc
 
   sass-embedded-linux-arm@1.98.0:
     resolution: {integrity: sha512-03baQZCxVyEp8v1NWBRlzGYrmVT/LK7ZrHlF1piscGiGxwfdxoLXVuxsylx3qn/dD/4i/rh7Bzk7reK1br9jvQ==}
     engines: {node: '>=14.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: glibc
 
   sass-embedded-linux-musl-arm64@1.98.0:
     resolution: {integrity: sha512-LeqNxQA8y4opjhe68CcFvMzCSrBuJqYVFbwElEj9bagHXQHTp9xVPJRn6VcrC+0VLEDq13HVXMv7RslIuU0zmA==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: musl
 
   sass-embedded-linux-musl-arm@1.98.0:
     resolution: {integrity: sha512-OBkjTDPYR4hSaueOGIM6FDpl9nt/VZwbSRpbNu9/eEJcxE8G/vynRugW8KRZmCFjPy8j/jkGBvvS+k9iOqKV3g==}
     engines: {node: '>=14.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: musl
 
   sass-embedded-linux-musl-riscv64@1.98.0:
     resolution: {integrity: sha512-7w6hSuOHKt8FZsmjRb3iGSxEzM87fO9+M8nt5JIQYMhHTj5C+JY/vcske0v715HCVj5e1xyTnbGXf8FcASeAIw==}
     engines: {node: '>=14.0.0'}
     cpu: [riscv64]
     os: [linux]
-    libc: musl
 
   sass-embedded-linux-musl-x64@1.98.0:
     resolution: {integrity: sha512-QikNyDEJOVqPmxyCFkci8ZdCwEssdItfjQFJB+D+Uy5HFqcS5Lv3d3GxWNX/h1dSb23RPyQdQc267ok5SbEyJw==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: musl
 
   sass-embedded-linux-riscv64@1.98.0:
     resolution: {integrity: sha512-E7fNytc/v4xFBQKzgzBddV/jretA4ULAPO6XmtBiQu4zZBdBozuSxsQLe2+XXeb0X4S2GIl72V7IPABdqke/vA==}
     engines: {node: '>=14.0.0'}
     cpu: [riscv64]
     os: [linux]
-    libc: glibc
 
   sass-embedded-linux-x64@1.98.0:
     resolution: {integrity: sha512-VsvP0t/uw00mMNPv3vwyYKUrFbqzxQHnRMO+bHdAMjvLw4NFf6mscpym9Bzf+NXwi1ZNKnB6DtXjmcpcvqFqYg==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: glibc
 
   sass-embedded-unknown-all@1.98.0:
     resolution: {integrity: sha512-C4MMzcAo3oEDQnW7L8SBgB9F2Fq5qHPnaYTZRMOH3Mp/7kM4OooBInXpCiiFjLnjY95hzP4KyctVx0uYR6MYlQ==}
@@ -10462,8 +10431,8 @@ packages:
     deprecated: This SVGO version is no longer supported. Upgrade to v2.x.x.
     hasBin: true
 
-  sweetalert2@8.19.1:
-    resolution: {integrity: sha512-EOeDLj31k1X948R6B8sMG5EhU3egbMRBNZs/cog0egIdLZ6E0R0elZrcbwiGhV50IPHO39vDUNCRmzxqwJhRag==}
+  sweetalert2@9.0.0:
+    resolution: {integrity: sha512-jyyWj7h8j+YAJtJQusjJPOvXEDXxrJUbvZsmG+zXfmTcr8JzkL1519cdklyIgh9uxYz/T1HVLzNjVBpEY52kmA==}
 
   symbol-observable@1.2.0:
     resolution: {integrity: sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==}
@@ -11238,13 +11207,8 @@ packages:
     resolution: {integrity: sha512-4gCtFXaAA3zYZdTp5s4Hl2sozuySsgz4jy1EnpBHNfpMa9dK1ZCG7viqBPCwXtmgc8nHqUsAu3G4gtmXkkY3Sw==}
     deprecated: Vue 2 has reached EOL and is no longer actively maintained. See https://v2.vuejs.org/eol/ for more details.
 
-  vue@3.5.31:
-    resolution: {integrity: sha512-iV/sU9SzOlmA/0tygSmjkEN6Jbs3nPoIPFhCMLD2STrjgOU8DX7ZtzMhg4ahVwf5Rp9KoFzcXeB1ZrVbLBp5/Q==}
-    peerDependencies:
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
+  vue@3.0.0:
+    resolution: {integrity: sha512-ZMrAARZ32sGIaYKr7Fk2GZEBh/VhulSrGxcGBiAvbN4fhjl3tuJyNFbbbLFqGjndbLoBW66I2ECq8ICdvkKdJw==}
 
   vuesax@3.12.2:
     resolution: {integrity: sha512-fdzcTPsrVklhWXtC8o07n9+SCmdQ8rxD9cZxNUx8KnbSH/Ss5azIHLLwMoNQuwT6kBFUcRzxVTfDh8jHzoSXaw==}
@@ -13720,11 +13684,11 @@ snapshots:
       '@typescript-eslint/types': 8.57.2
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-vue@6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.5(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0)':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-rc.2
       vite: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   '@vitest/eslint-plugin@1.6.13(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.2(@types/node@25.5.0)(jsdom@27.4.0)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)))':
     dependencies:
@@ -13803,7 +13767,7 @@ snapshots:
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
 
-  '@vue-macros/common@3.1.2(vue@3.5.31(typescript@5.9.3))':
+  '@vue-macros/common@3.1.2(vue@3.0.0)':
     dependencies:
       '@vue/compiler-sfc': 3.5.31
       ast-kit: 2.2.0
@@ -13811,7 +13775,7 @@ snapshots:
       magic-string-ast: 1.0.3
       unplugin-utils: 0.3.1
     optionalDependencies:
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0': {}
 
@@ -13856,7 +13820,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-preset-app@4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@2.7.16)':
+  '@vue/babel-preset-app@4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@3.0.0)':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/helper-compilation-targets': 7.28.6
@@ -13869,17 +13833,17 @@ snapshots:
       '@babel/preset-env': 7.29.2(@babel/core@7.29.0)
       '@babel/runtime': 7.29.2
       '@vue/babel-plugin-jsx': 1.5.0(@babel/core@7.29.0)
-      '@vue/babel-preset-jsx': 1.4.0(@babel/core@7.29.0)(vue@2.7.16)
+      '@vue/babel-preset-jsx': 1.4.0(@babel/core@7.29.0)(vue@3.0.0)
       babel-plugin-dynamic-import-node: 2.3.3
       core-js-compat: 3.49.0
       semver: 6.3.1
     optionalDependencies:
       core-js: 3.49.0
-      vue: 2.7.16
+      vue: 3.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-preset-jsx@1.4.0(@babel/core@7.29.0)(vue@2.7.16)':
+  '@vue/babel-preset-jsx@1.4.0(@babel/core@7.29.0)(vue@3.0.0)':
     dependencies:
       '@babel/core': 7.29.0
       '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
@@ -13891,7 +13855,7 @@ snapshots:
       '@vue/babel-sugar-v-model': 1.4.0(@babel/core@7.29.0)
       '@vue/babel-sugar-v-on': 1.4.0(@babel/core@7.29.0)
     optionalDependencies:
-      vue: 2.7.16
+      vue: 3.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -13938,10 +13902,10 @@ snapshots:
 
   '@vue/cli-overlay@4.5.19': {}
 
-  '@vue/cli-plugin-babel@4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))(core-js@3.49.0)(vue@2.7.16)':
+  '@vue/cli-plugin-babel@4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))(core-js@3.49.0)(vue@3.0.0)':
     dependencies:
       '@babel/core': 7.29.0
-      '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@2.7.16)
+      '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@3.0.0)
       '@vue/cli-service': 4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.4.1(@babel/core@7.29.0)(webpack@4.47.0)
@@ -13955,11 +13919,11 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)':
+  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)':
     dependencies:
       '@babel/core': 7.29.0
-      '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@2.7.16)
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@3.0.0)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.4.1(@babel/core@7.29.0)(webpack@4.47.0)
       cache-loader: 4.1.0(webpack@4.47.0)
@@ -13987,9 +13951,9 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)':
+  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
       eslint: 5.16.0
       eslint-loader: 2.2.1(eslint@5.16.0)(webpack@4.47.0)
@@ -14002,9 +13966,9 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@6.8.0)':
+  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@6.8.0)':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
       eslint: 6.8.0
       eslint-loader: 2.2.1(eslint@6.8.0)(webpack@4.47.0)
@@ -14022,18 +13986,18 @@ snapshots:
       '@vue/cli-service': 4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)
       '@vue/cli-shared-utils': 4.5.19
 
-  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))':
+  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
 
   '@vue/cli-plugin-vuex@4.2.3(@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16))':
     dependencies:
       '@vue/cli-service': 4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)
 
-  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))':
+  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
 
   '@vue/cli-service@4.2.3(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)':
     dependencies:
@@ -14155,7 +14119,7 @@ snapshots:
       - webpack-command
       - whiskers
 
-  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)':
+  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)':
     dependencies:
       '@intervolga/optimize-cssnano-plugin': 1.0.6(webpack@4.47.0)
       '@soda/friendly-errors-webpack-plugin': 1.8.1(webpack@4.47.0)
@@ -14164,8 +14128,8 @@ snapshots:
       '@types/webpack': 4.41.40
       '@types/webpack-dev-server': 3.11.6(debug@4.4.3)
       '@vue/cli-overlay': 4.5.19
-      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
+      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
+      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))
       '@vue/cli-shared-utils': 4.5.19
       '@vue/component-compiler-utils': 3.3.0(ejs@3.1.10)(lodash@4.17.23)
       '@vue/preload-webpack-plugin': 1.1.2(html-webpack-plugin@3.2.0(webpack@4.47.0))(webpack@4.47.0)
@@ -14214,7 +14178,7 @@ snapshots:
       webpack-merge: 4.2.2
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.31
-      vue-loader-v16: vue-loader@16.8.3(@vue/compiler-sfc@3.5.31)(vue@2.7.16)(webpack@4.47.0)
+      vue-loader-v16: vue-loader@16.8.3(@vue/compiler-sfc@3.5.31)(vue@3.0.0)(webpack@4.47.0)
       vue-template-compiler: 2.7.16
     transitivePeerDependencies:
       - arc-templates
@@ -14294,6 +14258,14 @@ snapshots:
       semver: 6.3.1
       strip-ansi: 6.0.1
 
+  '@vue/compiler-core@3.0.0':
+    dependencies:
+      '@babel/parser': 7.29.2
+      '@babel/types': 7.29.0
+      '@vue/shared': 3.0.0
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+
   '@vue/compiler-core@3.5.31':
     dependencies:
       '@babel/parser': 7.29.2
@@ -14301,6 +14273,11 @@ snapshots:
       entities: 7.0.1
       estree-walker: 2.0.2
       source-map-js: 1.2.1
+
+  '@vue/compiler-dom@3.0.0':
+    dependencies:
+      '@vue/compiler-core': 3.0.0
+      '@vue/shared': 3.0.0
 
   '@vue/compiler-dom@3.5.31':
     dependencies:
@@ -14407,11 +14384,11 @@ snapshots:
     dependencies:
       '@vue/devtools-kit': 8.1.1
 
-  '@vue/devtools-core@8.1.1(vue@3.5.31(typescript@5.9.3))':
+  '@vue/devtools-core@8.1.1(vue@3.0.0)':
     dependencies:
       '@vue/devtools-kit': 8.1.1
       '@vue/devtools-shared': 8.1.1
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   '@vue/devtools-kit@7.7.9':
     dependencies:
@@ -14438,8 +14415,8 @@ snapshots:
 
   '@vue/eslint-config-airbnb@4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)':
     dependencies:
-      eslint-config-airbnb-base: 13.2.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(eslint@5.16.0)
-      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(webpack@5.105.4)
+      eslint-config-airbnb-base: 13.2.0(eslint-plugin-import@2.32.0)(eslint@5.16.0)
+      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(webpack@5.105.4)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-webpack@0.11.1)(eslint@5.16.0)
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -14460,9 +14437,9 @@ snapshots:
       - supports-color
       - webpack
 
-  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)':
+  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       eslint: 6.8.0
       eslint-config-airbnb-base: 14.2.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)
       eslint-import-resolver-node: 0.3.9
@@ -14513,27 +14490,22 @@ snapshots:
       html-webpack-plugin: 3.2.0(webpack@5.105.4)
       webpack: 4.47.0
 
-  '@vue/reactivity@3.5.31':
+  '@vue/reactivity@3.0.0':
     dependencies:
-      '@vue/shared': 3.5.31
+      '@vue/shared': 3.0.0
 
-  '@vue/runtime-core@3.5.31':
+  '@vue/runtime-core@3.0.0':
     dependencies:
-      '@vue/reactivity': 3.5.31
-      '@vue/shared': 3.5.31
+      '@vue/reactivity': 3.0.0
+      '@vue/shared': 3.0.0
 
-  '@vue/runtime-dom@3.5.31':
+  '@vue/runtime-dom@3.0.0':
     dependencies:
-      '@vue/reactivity': 3.5.31
-      '@vue/runtime-core': 3.5.31
-      '@vue/shared': 3.5.31
-      csstype: 3.2.3
+      '@vue/runtime-core': 3.0.0
+      '@vue/shared': 3.0.0
+      csstype: 2.6.21
 
-  '@vue/server-renderer@3.5.31(vue@3.5.31(typescript@5.9.3))':
-    dependencies:
-      '@vue/compiler-ssr': 3.5.31
-      '@vue/shared': 3.5.31
-      vue: 3.5.31(typescript@5.9.3)
+  '@vue/shared@3.0.0': {}
 
   '@vue/shared@3.5.31': {}
 
@@ -14542,22 +14514,22 @@ snapshots:
       js-beautify: 1.15.4
       vue-component-type-helpers: 2.2.12
 
-  '@vue/tsconfig@0.8.1(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))':
+  '@vue/tsconfig@0.8.1(typescript@5.9.3)(vue@3.0.0)':
     optionalDependencies:
       typescript: 5.9.3
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   '@vue/web-component-wrapper@1.3.0': {}
 
-  '@vuelidate/core@2.0.3(vue@3.5.31(typescript@5.9.3))':
+  '@vuelidate/core@2.0.3(vue@3.0.0)':
     dependencies:
-      vue: 3.5.31(typescript@5.9.3)
-      vue-demi: 0.13.11(vue@3.5.31(typescript@5.9.3))
+      vue: 3.0.0
+      vue-demi: 0.13.11(vue@3.0.0)
 
-  '@vuelidate/validators@2.0.4(vue@3.5.31(typescript@5.9.3))':
+  '@vuelidate/validators@2.0.4(vue@3.0.0)':
     dependencies:
-      vue: 3.5.31(typescript@5.9.3)
-      vue-demi: 0.13.11(vue@3.5.31(typescript@5.9.3))
+      vue: 3.0.0
+      vue-demi: 0.13.11(vue@3.0.0)
 
   '@webassemblyjs/ast@1.14.1':
     dependencies:
@@ -15383,10 +15355,10 @@ snapshots:
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
-  buefy@3.0.4(vue@3.5.31(typescript@5.9.3)):
+  buefy@3.0.4(vue@3.0.0):
     dependencies:
       bulma: 1.0.4
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   buffer-alloc-unsafe@1.1.0: {}
 
@@ -16238,6 +16210,8 @@ snapshots:
       css-tree: 3.2.1
       lru-cache: 11.2.7
 
+  csstype@2.6.21: {}
+
   csstype@3.2.3: {}
 
   current-script-polyfill@1.0.0: {}
@@ -16828,7 +16802,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-airbnb-base@13.2.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(eslint@5.16.0):
+  eslint-config-airbnb-base@13.2.0(eslint-plugin-import@2.32.0)(eslint@5.16.0):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 5.16.0
@@ -16856,7 +16830,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(webpack@5.105.4):
+  eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0)(webpack@5.105.4):
     dependencies:
       array-find: 1.0.0
       debug: 2.6.9(supports-color@6.1.0)
@@ -16910,14 +16884,14 @@ snapshots:
       rimraf: 2.7.1
       webpack: 4.47.0
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(webpack@5.105.4))(eslint@5.16.0):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-webpack@0.11.1)(eslint@5.16.0):
     dependencies:
       debug: 3.2.7(supports-color@6.1.0)
     optionalDependencies:
       '@typescript-eslint/parser': 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
       eslint: 5.16.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(webpack@5.105.4)
+      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(webpack@5.105.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -16946,7 +16920,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 5.16.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0))(webpack@5.105.4))(eslint@5.16.0)
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-webpack@0.11.1)(eslint@5.16.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -20246,10 +20220,10 @@ snapshots:
 
   pify@4.0.1: {}
 
-  pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)):
+  pinia@3.0.4(typescript@5.9.3)(vue@3.0.0):
     dependencies:
       '@vue/devtools-api': 7.7.9
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
     optionalDependencies:
       typescript: 5.9.3
 
@@ -21993,7 +21967,7 @@ snapshots:
       unquote: 1.1.1
       util.promisify: 1.0.1
 
-  sweetalert2@8.19.1: {}
+  sweetalert2@9.0.0: {}
 
   symbol-observable@1.2.0: {}
 
@@ -22569,9 +22543,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vue-devtools@8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@5.9.3)):
+  vite-plugin-vue-devtools@8.1.1(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.0.0):
     dependencies:
-      '@vue/devtools-core': 8.1.1(vue@3.5.31(typescript@5.9.3))
+      '@vue/devtools-core': 8.1.1(vue@3.0.0)
       '@vue/devtools-kit': 8.1.1
       '@vue/devtools-shared': 8.1.1
       sirv: 3.0.2
@@ -22650,9 +22624,9 @@ snapshots:
 
   vue-component-type-helpers@2.2.12: {}
 
-  vue-demi@0.13.11(vue@3.5.31(typescript@5.9.3)):
+  vue-demi@0.13.11(vue@3.0.0):
     dependencies:
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
 
   vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1)):
     dependencies:
@@ -22785,7 +22759,7 @@ snapshots:
       - walrus
       - whiskers
 
-  vue-loader@16.8.3(@vue/compiler-sfc@3.5.31)(vue@2.7.16)(webpack@4.47.0):
+  vue-loader@16.8.3(@vue/compiler-sfc@3.5.31)(vue@3.0.0)(webpack@4.47.0):
     dependencies:
       chalk: 4.1.2
       hash-sum: 2.0.0
@@ -22793,17 +22767,21 @@ snapshots:
       webpack: 4.47.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.31
-      vue: 2.7.16
+      vue: 3.0.0
     optional: true
 
   vue-router@3.6.5(vue@2.7.16):
     dependencies:
       vue: 2.7.16
 
-  vue-router@5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))(vue@3.5.31(typescript@5.9.3)):
+  vue-router@3.6.5(vue@3.0.0):
+    dependencies:
+      vue: 3.0.0
+
+  vue-router@5.0.4(@vue/compiler-sfc@3.5.31)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.0))(vue@3.0.0):
     dependencies:
       '@babel/generator': 7.29.1
-      '@vue-macros/common': 3.1.2(vue@3.5.31(typescript@5.9.3))
+      '@vue-macros/common': 3.1.2(vue@3.0.0)
       '@vue/devtools-api': 8.1.1
       ast-walker-scope: 0.8.3
       chokidar: 5.0.0
@@ -22818,11 +22796,11 @@ snapshots:
       tinyglobby: 0.2.15
       unplugin: 3.0.0
       unplugin-utils: 0.3.1
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
       yaml: 2.8.3
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.31
-      pinia: 3.0.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))
+      pinia: 3.0.4(typescript@5.9.3)(vue@3.0.0)
 
   vue-server-renderer@2.7.16:
     dependencies:
@@ -22858,30 +22836,30 @@ snapshots:
       '@vue/compiler-sfc': 2.7.16
       csstype: 3.2.3
 
-  vue@3.5.31(typescript@5.9.3):
+  vue@3.0.0:
     dependencies:
-      '@vue/compiler-dom': 3.5.31
-      '@vue/compiler-sfc': 3.5.31
-      '@vue/runtime-dom': 3.5.31
-      '@vue/server-renderer': 3.5.31(vue@3.5.31(typescript@5.9.3))
-      '@vue/shared': 3.5.31
-    optionalDependencies:
-      typescript: 5.9.3
+      '@vue/compiler-dom': 3.0.0
+      '@vue/runtime-dom': 3.0.0
+      '@vue/shared': 3.0.0
 
   vuesax@3.12.2:
     dependencies:
       chalk: 2.4.2
       vue: 2.7.16
 
-  vuetify@3.12.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)):
+  vuetify@3.12.4(typescript@5.9.3)(vue@3.0.0):
     dependencies:
-      vue: 3.5.31(typescript@5.9.3)
+      vue: 3.0.0
     optionalDependencies:
       typescript: 5.9.3
 
   vuex@3.6.2(vue@2.7.16):
     dependencies:
       vue: 2.7.16
+
+  vuex@3.6.2(vue@3.0.0):
+    dependencies:
+      vue: 3.0.0
 
   w3c-xmlserializer@5.0.0:
     dependencies:
