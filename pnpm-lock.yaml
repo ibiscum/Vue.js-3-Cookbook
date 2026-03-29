@@ -8,12 +8,24 @@ importers:
 
   .:
     dependencies:
+      '@eslint/js':
+        specifier: ^10.0.1
+        version: 10.0.1(eslint@10.1.0(jiti@2.6.1))
+      '@vue/eslint-config-typescript':
+        specifier: ^14.7.0
+        version: 14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1))))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
       eslint:
         specifier: ^10.1.0
         version: 10.1.0(jiti@2.6.1)
+      eslint-plugin-oxlint:
+        specifier: ~1.42.0
+        version: 1.42.0
       eslint-plugin-vue:
         specifier: ^10.8.0
         version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1)))
+      globals:
+        specifier: ^17.4.0
+        version: 17.4.0
 
   chapter-02/2_1: {}
 
@@ -886,104 +898,13 @@ importers:
       axios:
         specifier: ^1.13.2
         version: 1.13.6
-      core-js:
-        specifier: ^3.1.2
-        version: 3.49.0
-      material-icons:
-        specifier: ^0.3.1
-        version: 0.3.1
-      miragejs:
-        specifier: ^0.1.31
-        version: 0.1.48
-      sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
-      vue:
-        specifier: ^2.6.10
-        version: 2.7.16
-      vue-router:
-        specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
-      vuesax:
-        specifier: ^3.10.8
-        version: 3.12.2
     devDependencies:
-      '@vue/cli-plugin-babel':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
-      '@vue/cli-plugin-eslint':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
-      '@vue/cli-plugin-router':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-service':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
-      '@vue/eslint-config-airbnb':
-        specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
-      babel-eslint:
-        specifier: ^10.0.1
-        version: 10.1.0(eslint@5.16.0)
-      eslint:
-        specifier: ^5.16.0
-        version: 5.16.0
-      eslint-plugin-html:
-        specifier: ^5.0.5
-        version: 5.0.5
-      eslint-plugin-vue:
-        specifier: ^5.0.0
-        version: 5.2.3(eslint@5.16.0)
-      eslint-plugin-vue-libs:
-        specifier: ^3.0.0
-        version: 3.0.2(eslint@5.16.0)
       lint-staged:
         specifier: ^9.4.2
         version: 9.5.0
 
   chapter-07/7_1:
-    dependencies:
-      core-js:
-        specifier: ^3.4.3
-        version: 3.49.0
-      vue:
-        specifier: ^2.6.10
-        version: 2.7.16
-      vue-router:
-        specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
-      vuex:
-        specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
     devDependencies:
-      '@vue/cli-plugin-babel':
-        specifier: ^4.1.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
-      '@vue/cli-plugin-eslint':
-        specifier: ^4.1.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
-      '@vue/cli-plugin-router':
-        specifier: ^4.1.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-plugin-vuex':
-        specifier: ^4.1.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-service':
-        specifier: ^4.1.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
-      '@vue/eslint-config-airbnb':
-        specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
-      babel-eslint:
-        specifier: ^10.0.3
-        version: 10.1.0(eslint@5.16.0)
-      eslint:
-        specifier: ^5.16.0
-        version: 5.16.0
-      eslint-plugin-vue:
-        specifier: ^5.0.0
-        version: 5.2.3(eslint@5.16.0)
       lint-staged:
         specifier: ^9.4.3
         version: 9.5.0
@@ -993,64 +914,7 @@ importers:
       axios:
         specifier: ^1.13.2
         version: 1.13.6
-      core-js:
-        specifier: ^3.1.2
-        version: 3.49.0
-      material-icons:
-        specifier: ^0.3.1
-        version: 0.3.1
-      miragejs:
-        specifier: ^0.1.31
-        version: 0.1.48
-      sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
-      vue:
-        specifier: ^2.6.10
-        version: 2.7.16
-      vue-router:
-        specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
-      vuesax:
-        specifier: ^3.10.8
-        version: 3.12.2
-      vuex:
-        specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
     devDependencies:
-      '@vue/cli-plugin-babel':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
-      '@vue/cli-plugin-eslint':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
-      '@vue/cli-plugin-router':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-plugin-vuex':
-        specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-service':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
-      '@vue/eslint-config-airbnb':
-        specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
-      babel-eslint:
-        specifier: ^10.0.1
-        version: 10.1.0(eslint@5.16.0)
-      eslint:
-        specifier: ^5.16.0
-        version: 5.16.0
-      eslint-plugin-html:
-        specifier: ^5.0.5
-        version: 5.0.5
-      eslint-plugin-vue:
-        specifier: ^5.0.0
-        version: 5.2.3(eslint@5.16.0)
-      eslint-plugin-vue-libs:
-        specifier: ^3.0.0
-        version: 3.0.2(eslint@5.16.0)
       lint-staged:
         specifier: ^9.4.2
         version: 9.5.0
@@ -1060,64 +924,7 @@ importers:
       axios:
         specifier: ^1.13.2
         version: 1.13.6
-      core-js:
-        specifier: ^3.1.2
-        version: 3.49.0
-      material-icons:
-        specifier: ^0.3.1
-        version: 0.3.1
-      miragejs:
-        specifier: ^0.1.31
-        version: 0.1.48
-      sweetalert2:
-        specifier: ^8.18.6
-        version: 8.19.1
-      vue:
-        specifier: ^2.6.10
-        version: 2.7.16
-      vue-router:
-        specifier: ^3.1.3
-        version: 3.6.5(vue@2.7.16)
-      vuesax:
-        specifier: ^3.10.8
-        version: 3.12.2
-      vuex:
-        specifier: ^3.1.2
-        version: 3.6.2(vue@2.7.16)
     devDependencies:
-      '@vue/cli-plugin-babel':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)
-      '@vue/cli-plugin-eslint':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)
-      '@vue/cli-plugin-router':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-plugin-vuex':
-        specifier: ^4.1.1
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))
-      '@vue/cli-service':
-        specifier: ^4.0.5
-        version: 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)
-      '@vue/eslint-config-airbnb':
-        specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@5.16.0)(webpack@5.105.4)
-      babel-eslint:
-        specifier: ^10.0.1
-        version: 10.1.0(eslint@5.16.0)
-      eslint:
-        specifier: ^5.16.0
-        version: 5.16.0
-      eslint-plugin-html:
-        specifier: ^5.0.5
-        version: 5.0.5
-      eslint-plugin-vue:
-        specifier: ^5.0.0
-        version: 5.2.3(eslint@5.16.0)
-      eslint-plugin-vue-libs:
-        specifier: ^3.0.0
-        version: 3.0.2(eslint@5.16.0)
       lint-staged:
         specifier: ^9.4.2
         version: 9.5.0
@@ -3201,6 +3008,15 @@ packages:
   '@eslint/eslintrc@3.3.5':
     resolution: {integrity: sha512-4IlJx0X0qftVsN5E+/vGujTRIFtwuLbNsVUe7TO6zYPDR1O6nFwvwhIKEKSrl6dZchmYBITazxKoUYOjdtjlRg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@10.0.1':
+    resolution: {integrity: sha512-zeR9k5pd4gxjZ0abRoIaxdc7I3nDktoXZk2qOv9gCNWx3mVwEn32VRhyLaRsDiJjTs0xq/T8mfPtyuXu7GWBcA==}
+    engines: {node: ^20.19.0 || ^22.13.0 || >=24}
+    peerDependencies:
+      eslint: ^10.0.0
+    peerDependenciesMeta:
+      eslint:
+        optional: true
 
   '@eslint/js@9.39.4':
     resolution: {integrity: sha512-nE7DEIchvtiFTwBw4Lfbu59PG+kCofhjsKaCWzxTpt4lfRjRMqG6uMBzKXuEcyXhOHoUp9riAm7/aWYGhXZ9cw==}
@@ -12946,6 +12762,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@eslint/js@10.0.1(eslint@10.1.0(jiti@2.6.1))':
+    optionalDependencies:
+      eslint: 10.1.0(jiti@2.6.1)
+
   '@eslint/js@9.39.4': {}
 
   '@eslint/object-schema@2.1.7': {}
@@ -14657,6 +14477,19 @@ snapshots:
       '@typescript-eslint/utils': 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
       eslint: 10.1.0(jiti@2.6.1)
       eslint-plugin-vue: 10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1)))
+      fast-glob: 3.3.3
+      typescript-eslint: 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
+      vue-eslint-parser: 10.4.0(eslint@10.1.0(jiti@2.6.1))
+    optionalDependencies:
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+
+  '@vue/eslint-config-typescript@14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1))))(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)':
+    dependencies:
+      '@typescript-eslint/utils': 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
+      eslint: 10.1.0(jiti@2.6.1)
+      eslint-plugin-vue: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.1.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.1.0(jiti@2.6.1)))
       fast-glob: 3.3.3
       typescript-eslint: 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)
       vue-eslint-parser: 10.4.0(eslint@10.1.0(jiti@2.6.1))
