@@ -815,8 +815,8 @@ importers:
         specifier: ^16.1.6
         version: 16.4.0
       postcss-nesting:
-        specifier: ^13.0.2
-        version: 13.0.2(postcss@8.5.8)
+        specifier: ^14.0.0
+        version: 14.0.0(postcss@8.5.8)
       vite:
         specifier: ^7.1.5
         version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)(sass-embedded@1.98.0)(sass@1.98.0)(stylus@0.64.0)(terser@5.46.1)(yaml@2.8.3)
@@ -2414,12 +2414,6 @@ packages:
       '@csstools/css-parser-algorithms': ^4.0.0
       '@csstools/css-tokenizer': ^4.0.0
 
-  '@csstools/selector-resolve-nested@3.1.0':
-    resolution: {integrity: sha512-mf1LEW0tJLKfWyvn5KdDrhpxHyuxpbNwTIwOYLIvsTffeyOf85j5oIzfG0yosxDgx/sswlqBnESYUcQH0vgZ0g==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      postcss-selector-parser: ^7.0.0
-
   '@csstools/selector-resolve-nested@4.0.0':
     resolution: {integrity: sha512-9vAPxmp+Dx3wQBIUwc1v7Mdisw1kbbaGqXUM8QLTgWg7SoPGYtXBsMXvsFs/0Bn5yoFhcktzxNZGNaUt0VjgjA==}
     engines: {node: '>=20.19.0'}
@@ -3268,6 +3262,9 @@ packages:
   '@types/express@4.17.25':
     resolution: {integrity: sha512-dVd04UKsfpINUnK0yBoYHDF3xu7xVH4BuDotC/xGuycx4CgbP48X/KF/586bcObxT0HENHXEU8Nqtu6NR+eKhw==}
 
+  '@types/express@5.0.6':
+    resolution: {integrity: sha512-sKYVuV7Sv9fbPIt/442koC7+IIwK5olP1KWeD88e/idgoJqDm3JV/YUiPwkoKK92ylff2MGxSz1CSjsXelx0YA==}
+
   '@types/glob@7.2.0':
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
 
@@ -3869,6 +3866,7 @@ packages:
   '@xmldom/xmldom@0.8.11':
     resolution: {integrity: sha512-cQzWCtO6C8TQiYl1ruKNn2U6Ao4o4WBBcbL61yJl84x+j5sOWWFU9X7DpND8XZG3daDppSsigMdfAIl2upQBRw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xtuc/ieee754@1.2.0':
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
@@ -4297,6 +4295,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  baseline-browser-mapping@2.10.13:
+    resolution: {integrity: sha512-BL2sTuHOdy0YT1lYieUxTw/QMtPBC3pmlJC6xk8BBYVv6vcw3SGdKemQ+Xsx9ik2F/lYDO9tqsFQH1r9PFuHKw==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
 
@@ -4403,6 +4406,11 @@ packages:
 
   browserslist@4.28.1:
     resolution: {integrity: sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
+  browserslist@4.28.2:
+    resolution: {integrity: sha512-48xSriZYYg+8qXna9kwqjIVzuQxi+KYWp2+5nCYnYKPTr0LvD89Jqk2Or5ogxz0NUMfIjhh2lIUX/LyX9B4oIg==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -4533,6 +4541,9 @@ packages:
 
   caniuse-lite@1.0.30001781:
     resolution: {integrity: sha512-RdwNCyMsNBftLjW6w01z8bKEvT6e/5tpPVEgtn22TiLGlstHOVecsX2KHFkD5e/vRnIE4EGzpuIODb3mtswtkw==}
+
+  caniuse-lite@1.0.30001784:
+    resolution: {integrity: sha512-WU346nBTklUV9YfUl60fqRbU5ZqyXlqvo1SgigE1OAXK5bFL8LL9q1K7aap3N739l4BvNqnkm3YrGHiY9sfUQw==}
 
   case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -5547,6 +5558,9 @@ packages:
 
   electron-to-chromium@1.5.328:
     resolution: {integrity: sha512-QNQ5l45DzYytThO21403XN3FvK0hOkWDG8viNf6jqS42msJ8I4tGDSpBCgvDRRPnkffafiwAym2X2eHeGD2V0w==}
+
+  electron-to-chromium@1.5.330:
+    resolution: {integrity: sha512-jFNydB5kFtYUobh4IkWUnXeyDbjf/r9gcUEXe1xcrcUxIGfTdzPXA+ld6zBRbwvgIGVzDll/LTIiDztEtckSnA==}
 
   electron@38.8.6:
     resolution: {integrity: sha512-lyBhcVi9QYAZL6FO6r5twAWAjWnYomo3iVDvrb5SJZlq928BGemHOKG0tPIq41NOLaCu9f3XdEEjMkjQPjprRg==}
@@ -7587,6 +7601,9 @@ packages:
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
 
+  lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
   lodash@4.17.23:
     resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
@@ -7833,6 +7850,10 @@ packages:
 
   minimatch@10.2.4:
     resolution: {integrity: sha512-oRjTw/97aTBN0RHbYCdtF1MQfvusSIBQM0IZEgzl6426+8jSC0nF1a/GmnVLpfB9yyr6g6FTqWqiZVbxrtaCIg==}
+    engines: {node: 18 || 20 || >=22}
+
+  minimatch@10.2.5:
+    resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
     engines: {node: 18 || 20 || >=22}
 
   minimatch@3.1.5:
@@ -8611,9 +8632,9 @@ packages:
   postcss-modules-values@3.0.0:
     resolution: {integrity: sha512-1//E5jCBrZ9DmRX+zCtmQtRSV6PV42Ix7Bzj9GbwJceduuf7IqP8MgeTXuRDHOWj2m0VzZD5+roFWDuU8RQjcg==}
 
-  postcss-nesting@13.0.2:
-    resolution: {integrity: sha512-1YCI290TX+VP0U/K/aFxzHzQWHWURL+CtHMSbex1lCdpXD1SoR2sYuxDu5aNI9lPoXpKTCggFZiDJbwylU0LEQ==}
-    engines: {node: '>=18'}
+  postcss-nesting@14.0.0:
+    resolution: {integrity: sha512-YGFOfVrjxYfeGTS5XctP1WCI5hu8Lr9SmntjfRC+iX5hCihEO+QZl9Ra+pkjqkgoVdDKvb2JccpElcowhZtzpw==}
+    engines: {node: '>=20.19.0'}
     peerDependencies:
       postcss: ^8.4
 
@@ -11165,7 +11186,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.29.0
       '@babel/helper-validator-option': 7.27.1
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -11940,10 +11961,6 @@ snapshots:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
 
-  '@csstools/selector-resolve-nested@3.1.0(postcss-selector-parser@7.1.1)':
-    dependencies:
-      postcss-selector-parser: 7.1.1
-
   '@csstools/selector-resolve-nested@4.0.0(postcss-selector-parser@7.1.1)':
     dependencies:
       postcss-selector-parser: 7.1.1
@@ -12405,7 +12422,7 @@ snapshots:
       cssnano: 4.1.10
       dot-prop: 5.3.0
       elementtree: 0.1.7
-      express: 4.17.3(supports-color@6.1.0)
+      express: 4.17.3
       fast-glob: 3.2.11
       file-loader: 6.2.0(webpack@5.105.4)
       fork-ts-checker-webpack-plugin: 6.5.3(eslint@10.1.0(jiti@2.6.1))(typescript@4.2.2)(vue-template-compiler@2.7.16)(webpack@4.47.0)
@@ -12802,6 +12819,12 @@ snapshots:
       '@types/qs': 6.15.0
       '@types/serve-static': 1.15.10
 
+  '@types/express@5.0.6':
+    dependencies:
+      '@types/body-parser': 1.19.6
+      '@types/express-serve-static-core': 5.1.1
+      '@types/serve-static': 2.2.0
+
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 6.0.0
@@ -12837,7 +12860,7 @@ snapshots:
 
   '@types/minimatch@6.0.0':
     dependencies:
-      minimatch: 10.2.4
+      minimatch: 10.2.5
 
   '@types/minimist@1.2.5': {}
 
@@ -12909,7 +12932,7 @@ snapshots:
   '@types/webpack-dev-server@3.11.6(debug@4.4.3)':
     dependencies:
       '@types/connect-history-api-fallback': 1.5.4
-      '@types/express': 4.17.25
+      '@types/express': 5.0.6
       '@types/serve-static': 2.2.0
       '@types/webpack': 4.41.40
       http-proxy-middleware: 1.3.1(debug@4.4.3)
@@ -13299,7 +13322,7 @@ snapshots:
 
   '@vue/cli-overlay@4.5.19': {}
 
-  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.49.0)(vue@2.7.16)':
+  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(core-js@3.49.0)(vue@3.0.0)':
     dependencies:
       '@babel/core': 7.29.0
       '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.0)(core-js@3.49.0)(vue@3.0.0)
@@ -13316,7 +13339,7 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint@5.16.0)':
+  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint@5.16.0)':
     dependencies:
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
@@ -13346,16 +13369,16 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))':
+  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))':
     dependencies:
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       '@vue/cli-shared-utils': 4.5.19
 
-  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))':
+  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))':
     dependencies:
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
 
-  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16)':
+  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)':
     dependencies:
       '@intervolga/optimize-cssnano-plugin': 1.0.6(webpack@4.47.0)
       '@soda/friendly-errors-webpack-plugin': 1.8.1(webpack@4.47.0)
@@ -13374,7 +13397,7 @@ snapshots:
       acorn-walk: 7.2.0
       address: 1.2.2
       autoprefixer: 9.8.8
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       cache-loader: 4.1.0(webpack@4.47.0)
       case-sensitive-paths-webpack-plugin: 2.4.0
       cli-highlight: 2.1.11
@@ -13661,7 +13684,7 @@ snapshots:
       - supports-color
       - webpack
 
-  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@2.7.16))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)':
+  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3))(eslint@6.8.0))(eslint@6.8.0)(webpack@5.105.4)':
     dependencies:
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.31)(ejs@3.1.10)(lodash@4.17.23)(typescript@5.9.3)(vue-template-compiler@2.7.16)(vue@3.0.0)
       eslint: 6.8.0
@@ -14261,8 +14284,8 @@ snapshots:
 
   autoprefixer@9.8.8:
     dependencies:
-      browserslist: 4.28.1
-      caniuse-lite: 1.0.30001781
+      browserslist: 4.28.2
+      caniuse-lite: 1.0.30001784
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -14382,6 +14405,8 @@ snapshots:
 
   baseline-browser-mapping@2.10.11: {}
 
+  baseline-browser-mapping@2.10.13: {}
+
   batch@0.6.1: {}
 
   bcrypt-pbkdf@1.0.2:
@@ -14426,7 +14451,7 @@ snapshots:
 
   bn.js@5.2.3: {}
 
-  body-parser@1.19.2(supports-color@6.1.0):
+  body-parser@1.19.2:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
@@ -14441,7 +14466,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  body-parser@1.20.4:
+  body-parser@1.20.4(supports-color@6.1.0):
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
@@ -14557,6 +14582,14 @@ snapshots:
       electron-to-chromium: 1.5.328
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
+
+  browserslist@4.28.2:
+    dependencies:
+      baseline-browser-mapping: 2.10.13
+      caniuse-lite: 1.0.30001784
+      electron-to-chromium: 1.5.330
+      node-releases: 2.0.36
+      update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
   buefy@3.0.4(vue@3.0.0):
     dependencies:
@@ -14741,12 +14774,14 @@ snapshots:
 
   caniuse-api@3.0.0:
     dependencies:
-      browserslist: 4.28.1
-      caniuse-lite: 1.0.30001781
+      browserslist: 4.28.2
+      caniuse-lite: 1.0.30001784
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001781: {}
+
+  caniuse-lite@1.0.30001784: {}
 
   case-sensitive-paths-webpack-plugin@2.4.0: {}
 
@@ -15135,7 +15170,7 @@ snapshots:
 
   core-js-compat@3.49.0:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
 
   core-js@3.49.0: {}
 
@@ -15758,6 +15793,8 @@ snapshots:
 
   electron-to-chromium@1.5.328: {}
 
+  electron-to-chromium@1.5.330: {}
+
   electron@38.8.6:
     dependencies:
       '@electron/get': 2.0.3
@@ -16029,7 +16066,7 @@ snapshots:
       interpret: 1.4.0
       is-core-module: 2.16.1
       is-regex: 1.2.1
-      lodash: 4.17.23
+      lodash: 4.17.21
       resolve: 2.0.0-next.6
       semver: 5.7.2
       webpack: 5.105.4
@@ -16544,11 +16581,11 @@ snapshots:
 
   expect-type@1.3.0: {}
 
-  express@4.17.3(supports-color@6.1.0):
+  express@4.17.3:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.19.2(supports-color@6.1.0)
+      body-parser: 1.19.2
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.4.2
@@ -16558,7 +16595,7 @@ snapshots:
       encodeurl: 1.0.2
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 1.1.2(supports-color@6.1.0)
+      finalhandler: 1.1.2
       fresh: 0.5.2
       merge-descriptors: 1.0.1
       methods: 1.1.2
@@ -16569,8 +16606,8 @@ snapshots:
       qs: 6.9.7
       range-parser: 1.2.1
       safe-buffer: 5.2.1
-      send: 0.17.2(supports-color@6.1.0)
-      serve-static: 1.14.2(supports-color@6.1.0)
+      send: 0.17.2
+      serve-static: 1.14.2
       setprototypeof: 1.2.0
       statuses: 1.5.0
       type-is: 1.6.18
@@ -16579,11 +16616,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  express@4.22.1:
+  express@4.22.1(supports-color@6.1.0):
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.20.4
+      body-parser: 1.20.4(supports-color@6.1.0)
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.7.2
@@ -16593,7 +16630,7 @@ snapshots:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 1.3.2
+      finalhandler: 1.3.2(supports-color@6.1.0)
       fresh: 0.5.2
       http-errors: 2.0.1
       merge-descriptors: 1.0.3
@@ -16605,8 +16642,8 @@ snapshots:
       qs: 6.14.2
       range-parser: 1.2.1
       safe-buffer: 5.2.1
-      send: 0.19.2
-      serve-static: 1.16.3
+      send: 0.19.2(supports-color@6.1.0)
+      serve-static: 1.16.3(supports-color@6.1.0)
       setprototypeof: 1.2.0
       statuses: 2.0.2
       type-is: 1.6.18
@@ -16771,7 +16808,7 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.1.2(supports-color@6.1.0):
+  finalhandler@1.1.2:
     dependencies:
       debug: 2.6.9(supports-color@6.1.0)
       encodeurl: 1.0.2
@@ -16783,7 +16820,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  finalhandler@1.3.2:
+  finalhandler@1.3.2(supports-color@6.1.0):
     dependencies:
       debug: 2.6.9(supports-color@6.1.0)
       encodeurl: 2.0.0
@@ -17099,7 +17136,7 @@ snapshots:
     dependencies:
       foreground-child: 3.3.1
       jackspeak: 4.2.3
-      minimatch: 10.2.4
+      minimatch: 10.2.5
       minipass: 7.1.3
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.2
@@ -17136,7 +17173,7 @@ snapshots:
   global-tunnel-ng@2.7.1:
     dependencies:
       encodeurl: 1.0.2
-      lodash: 4.17.23
+      lodash: 4.17.21
       npm-conf: 1.1.3
       tunnel: 0.0.6
     optional: true
@@ -17432,7 +17469,7 @@ snapshots:
     dependencies:
       html-minifier: 3.5.21
       loader-utils: 0.2.17
-      lodash: 4.17.23
+      lodash: 4.17.21
       pretty-error: 2.1.2
       tapable: 1.1.3
       toposort: 1.0.7
@@ -17492,7 +17529,7 @@ snapshots:
     dependencies:
       http-proxy: 1.18.1(debug@4.4.3)
       is-glob: 4.0.3
-      lodash: 4.17.23
+      lodash: 4.17.21
       micromatch: 3.1.10(supports-color@6.1.0)
     transitivePeerDependencies:
       - debug
@@ -18136,7 +18173,7 @@ snapshots:
 
   last-call-webpack-plugin@3.0.0:
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.17.21
       webpack-sources: 1.4.3
 
   launch-editor-middleware@2.13.2:
@@ -18405,6 +18442,8 @@ snapshots:
 
   lodash.uniq@4.5.0: {}
 
+  lodash@4.17.21: {}
+
   lodash@4.17.23: {}
 
   log-symbols@1.0.2:
@@ -18637,6 +18676,10 @@ snapshots:
   minimalistic-crypto-utils@1.0.1: {}
 
   minimatch@10.2.4:
+    dependencies:
+      brace-expansion: 5.0.5
+
+  minimatch@10.2.5:
     dependencies:
       brace-expansion: 5.0.5
 
@@ -19395,7 +19438,7 @@ snapshots:
 
   postcss-colormin@4.0.3:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       color: 3.2.1
       has: 1.0.4
       postcss: 7.0.39
@@ -19443,7 +19486,7 @@ snapshots:
 
   postcss-merge-rules@4.0.3:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       caniuse-api: 3.0.0
       cssnano-util-same-parent: 4.0.1
       postcss: 7.0.39
@@ -19465,7 +19508,7 @@ snapshots:
   postcss-minify-params@4.0.2:
     dependencies:
       alphanum-sort: 1.0.2
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       cssnano-util-get-arguments: 4.0.0
       postcss: 7.0.39
       postcss-value-parser: 3.3.1
@@ -19499,10 +19542,10 @@ snapshots:
       icss-utils: 4.1.1
       postcss: 7.0.39
 
-  postcss-nesting@13.0.2(postcss@8.5.8):
+  postcss-nesting@14.0.0(postcss@8.5.8):
     dependencies:
-      '@csstools/selector-resolve-nested': 3.1.0(postcss-selector-parser@7.1.1)
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
       postcss: 8.5.8
       postcss-selector-parser: 7.1.1
 
@@ -19544,7 +19587,7 @@ snapshots:
 
   postcss-normalize-unicode@4.0.1:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       postcss: 7.0.39
       postcss-value-parser: 3.3.1
 
@@ -19568,7 +19611,7 @@ snapshots:
 
   postcss-reduce-initial@4.0.3:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       caniuse-api: 3.0.0
       has: 1.0.4
       postcss: 7.0.39
@@ -20286,7 +20329,7 @@ snapshots:
 
   semver@7.7.4: {}
 
-  send@0.17.2(supports-color@6.1.0):
+  send@0.17.2:
     dependencies:
       debug: 2.6.9(supports-color@6.1.0)
       depd: 1.1.2
@@ -20304,7 +20347,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  send@0.19.2:
+  send@0.19.2(supports-color@6.1.0):
     dependencies:
       debug: 2.6.9(supports-color@6.1.0)
       depd: 2.0.0
@@ -20351,21 +20394,21 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@1.14.2(supports-color@6.1.0):
+  serve-static@1.14.2:
     dependencies:
       encodeurl: 1.0.2
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 0.17.2(supports-color@6.1.0)
+      send: 0.17.2
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@1.16.3:
+  serve-static@1.16.3(supports-color@6.1.0):
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 0.19.2
+      send: 0.19.2(supports-color@6.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -20847,7 +20890,7 @@ snapshots:
 
   stylehacks@4.0.3:
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       postcss: 7.0.39
       postcss-selector-parser: 3.1.2
 
@@ -21493,6 +21536,12 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
+  update-browserslist-db@1.2.3(browserslist@4.28.2):
+    dependencies:
+      browserslist: 4.28.2
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
   upper-case@1.1.3: {}
 
   uri-js@4.4.1:
@@ -21896,7 +21945,7 @@ snapshots:
       '@vue/runtime-dom': 3.0.0
       '@vue/shared': 3.0.0
 
-  vuetify@3.12.4(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)):
+  vuetify@3.12.4(typescript@5.9.3)(vue@3.0.0):
     dependencies:
       vue: 3.0.0
     optionalDependencies:
@@ -21956,10 +22005,10 @@ snapshots:
       chalk: 2.4.2
       commander: 2.20.3
       ejs: 2.7.4
-      express: 4.22.1
+      express: 4.22.1(supports-color@6.1.0)
       filesize: 3.6.1
       gzip-size: 5.1.1
-      lodash: 4.17.23
+      lodash: 4.17.21
       mkdirp: 0.5.6
       opener: 1.5.2
       ws: 6.2.3
@@ -22009,7 +22058,7 @@ snapshots:
       connect-history-api-fallback: 1.6.0
       debug: 4.4.3(supports-color@6.1.0)
       del: 4.1.1
-      express: 4.17.3(supports-color@6.1.0)
+      express: 4.22.1(supports-color@6.1.0)
       html-entities: 1.4.0
       http-proxy-middleware: 0.19.1(debug@4.4.3)(supports-color@6.1.0)
       import-local: 2.0.0
@@ -22047,7 +22096,7 @@ snapshots:
 
   webpack-merge@4.2.2:
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.17.21
 
   webpack-node-externals@2.5.2: {}
 
@@ -22098,7 +22147,7 @@ snapshots:
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.16.0
       acorn-import-phases: 1.0.4(acorn@8.16.0)
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.20.1
       es-module-lexer: 2.0.0
