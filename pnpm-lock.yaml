@@ -751,11 +751,11 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0
       stylus:
-        specifier: ^0.54.7
-        version: 0.54.8
+        specifier: ^0.64.0
+        version: 0.64.0
       stylus-loader:
         specifier: ^3.0.2
-        version: 3.0.2(stylus@0.54.8)
+        version: 3.0.2(stylus@0.64.0)
 
   chapter-05/5_4:
     dependencies:
@@ -767,11 +767,11 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0
       stylus:
-        specifier: ^0.54.7
-        version: 0.54.8
+        specifier: ^0.64.0
+        version: 0.64.0
       stylus-loader:
         specifier: ^3.0.2
-        version: 3.0.2(stylus@0.54.8)
+        version: 3.0.2(stylus@0.64.0)
 
   chapter-05/5_5:
     dependencies:
@@ -783,11 +783,11 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0
       stylus:
-        specifier: ^0.54.7
-        version: 0.54.8
+        specifier: ^0.64.0
+        version: 0.64.0
       stylus-loader:
         specifier: ^3.0.2
-        version: 3.0.2(stylus@0.54.8)
+        version: 3.0.2(stylus@0.64.0)
 
   chapter-05/5_6:
     dependencies:
@@ -799,11 +799,11 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0
       stylus:
-        specifier: ^0.54.7
-        version: 0.54.8
+        specifier: ^0.64.0
+        version: 0.64.0
       stylus-loader:
         specifier: ^3.0.2
-        version: 3.0.2(stylus@0.54.8)
+        version: 3.0.2(stylus@0.64.0)
 
   chapter-05/5_7:
     dependencies:
@@ -5418,6 +5418,7 @@ packages:
 
   devtron@1.4.0:
     resolution: {integrity: sha512-BFWB7plA0PSprN1l3UnI4jtzV4xopPFaB87nF1Kl5yNjMwdHDxUVb8ov9ymQA1ZfeulbstVLYGDkUTJ8YZpKJw==}
+    deprecated: Please use @electron/devtron moving forward. The newer package works with modern versions of Electron.
 
   diffie-hellman@5.0.3:
     resolution: {integrity: sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==}
@@ -20989,6 +20990,13 @@ snapshots:
       loader-utils: 1.4.2
       lodash.clonedeep: 4.5.0
       stylus: 0.54.8
+      when: 3.6.4
+
+  stylus-loader@3.0.2(stylus@0.64.0):
+    dependencies:
+      loader-utils: 1.4.2
+      lodash.clonedeep: 4.5.0
+      stylus: 0.64.0
       when: 3.6.4
 
   stylus-loader@8.1.3(stylus@0.64.0)(webpack@5.105.4):
