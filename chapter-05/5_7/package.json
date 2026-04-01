@@ -16,7 +16,7 @@
   "devDependencies": {
     
     "lint-staged": "^16.1.6",
-    "postcss-nesting": "^13.0.2",
+    "postcss-nesting": "^14.0.0",
     "vite": "^7.1.5"
   },
   "gitHooks": {
