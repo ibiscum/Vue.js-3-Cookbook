@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "lint-staged": "^9.5.0",
-    "stylus": "^0.54.7",
+    "stylus": "^0.64.0",
     "stylus-loader": "^3.0.2"
   },
   "gitHooks": {
