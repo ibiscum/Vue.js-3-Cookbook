@@ -15,7 +15,7 @@
   "dependencies": {
     "pinia": "^3.0.4",
     "typescript": "^5.9.3",
-    "vue": "^3.0.2",
+    "vue": "^3.0.3",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
     "eslint-plugin-vue": "^10.7.0",
     "globals": "^17.3.0",
     "lint-staged": "^16.2.7",
-    "vite": "^7.3.1"
+    "vite": "^7.3.2"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
