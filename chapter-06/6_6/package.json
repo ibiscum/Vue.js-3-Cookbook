@@ -9,7 +9,7 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "axios": "^1.13.6"
+    "axios": "^1.15.0"
   },
   "devDependencies": {
     "lint-staged": "^9.5.0"

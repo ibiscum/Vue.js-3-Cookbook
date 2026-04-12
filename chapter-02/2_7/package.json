@@ -9,7 +9,7 @@
     "lint": "eslint --fix"
   },
   "dependencies": {
-    "vue": "^3.0.3"
+    "vue": "^3.0.4"
   },
   "devDependencies": {
     "eslint": "^10.0.2",
