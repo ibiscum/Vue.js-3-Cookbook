@@ -1039,8 +1039,8 @@ importers:
   chapter-08/8_2:
     dependencies:
       animate.css:
-        specifier: ^3.7.2
-        version: 3.7.2
+        specifier: ^4.1.1
+        version: 4.1.1
       core-js:
         specifier: ^3.6.5
         version: 3.49.0
@@ -1079,8 +1079,8 @@ importers:
   chapter-08/8_3:
     dependencies:
       animate.css:
-        specifier: ^3.7.2
-        version: 3.7.2
+        specifier: ^4.1.1
+        version: 4.1.1
       core-js:
         specifier: ^3.6.5
         version: 3.49.0
@@ -1119,8 +1119,8 @@ importers:
   chapter-08/8_4:
     dependencies:
       animate.css:
-        specifier: ^3.7.2
-        version: 3.7.2
+        specifier: ^4.1.1
+        version: 4.1.1
       core-js:
         specifier: ^3.6.5
         version: 3.49.0
@@ -1159,8 +1159,8 @@ importers:
   chapter-08/8_5:
     dependencies:
       animate.css:
-        specifier: ^3.7.2
-        version: 3.7.2
+        specifier: ^4.1.1
+        version: 4.1.1
       core-js:
         specifier: ^3.6.5
         version: 3.49.0
@@ -3999,8 +3999,8 @@ packages:
   alphanum-sort@1.0.2:
     resolution: {integrity: sha512-0FcBfdcmaumGPQ0qPn7Q5qTgz/ooXgIyp1rf8ik5bGX8mpE2YHjC0P/eyQvxu1GURYQgq9ozf2mteQ5ZD9YiyQ==}
 
-  animate.css@3.7.2:
-    resolution: {integrity: sha512-0bE8zYo7C0KvgOYrSVfrzkbYk6IOTVPNqkiHg2cbyF4Pq/PXzilz4BRWA3hwEUBoMp5VBgrC29lQIZyhRWdBTw==}
+  animate.css@4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
 
   ansi-colors@3.2.4:
     resolution: {integrity: sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==}
@@ -14291,7 +14291,7 @@ snapshots:
 
   alphanum-sort@1.0.2: {}
 
-  animate.css@3.7.2: {}
+  animate.css@4.1.1: {}
 
   ansi-colors@3.2.4: {}
 
