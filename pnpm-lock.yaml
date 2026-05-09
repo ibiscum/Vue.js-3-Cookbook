@@ -1331,8 +1331,8 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4
       vuetify:
-        specifier: ^3.10.11
-        version: 3.12.4(typescript@5.9.3)(vue@3.0.4)
+        specifier: ^4.0.7
+        version: 4.0.7(typescript@5.9.3)(vue@3.0.4)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -1374,8 +1374,8 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4
       vuetify:
-        specifier: ^3.10.11
-        version: 3.12.4(typescript@5.9.3)(vue@3.0.4)
+        specifier: ^4.0.7
+        version: 4.0.7(typescript@5.9.3)(vue@3.0.4)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -10929,8 +10929,8 @@ packages:
   vue@3.0.4:
     resolution: {integrity: sha512-2o+AiQF8sAupyhbyl3oxVCl3WCwC/n5NI7VMM+gVQ231qvSB8eI7sCBloloqDJK6yA367EEtmRSeSCf4sxCC+A==}
 
-  vuetify@3.12.4:
-    resolution: {integrity: sha512-9pyvSdL4vGEioOSJKjoyRxyPc2HYYINWkwxE4ku8PuGGRhCoEchXL57EL1JabIy+D8lUsx+co/G+tUaksvpXrw==}
+  vuetify@4.0.7:
+    resolution: {integrity: sha512-SV+YJkBmudY3s9qfZO2ZGUsrD0TDQU8pMBH1ERga9AEyjGvioZuXXh93V9wHxXJphvqRC2NW10Nt2lW9IZQcPw==}
     peerDependencies:
       typescript: '>=4.7'
       vite-plugin-vuetify: '>=2.1.0'
@@ -22550,7 +22550,7 @@ snapshots:
       '@vue/runtime-dom': 3.0.4
       '@vue/shared': 3.0.4
 
-  vuetify@3.12.4(typescript@5.9.3)(vue@3.0.4):
+  vuetify@4.0.7(typescript@5.9.3)(vue@3.0.4):
     dependencies:
       vue: 3.0.4
     optionalDependencies:
