@@ -13,7 +13,7 @@
     "buefy": "^3.0.3",
     "sass-embedded": "^1.99.0",
     "vite": "^7.3.2",
-    "vite-plugin-vue-devtools": "^8.0.5",
+    "vite-plugin-vue-devtools": "^8.1.2",
     "vitest": "^4.0.13",
     "vue": "^3.0.4",
     "vuetify": "^4.0.7"
