@@ -14,7 +14,7 @@
   "devDependencies": {
      "@vitejs/plugin-vue": "^6.0.3",
     "lint-staged": "^16.2.6",
-    "vite": "^7.3.2"
+    "vite": "^7.3.5"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

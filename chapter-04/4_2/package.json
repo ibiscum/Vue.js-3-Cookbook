@@ -10,7 +10,7 @@
     "format": "npx prettier . --write"
   },
   "dependencies": {
-    "vite": "^7.3.2",
+    "vite": "^7.3.5",
     "vite-plugin-vue-devtools": "^8.1.2",
     "vitest": "^4.0.13",
     "vue": "^3.0.4"

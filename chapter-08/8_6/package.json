@@ -21,7 +21,7 @@
     "stylus": "^0.64.0",
     "stylus-loader": "^8.1.2",
     "typescript": "^6.0.3",
-    "vite": "^7.3.2"
+    "vite": "^7.3.5"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
