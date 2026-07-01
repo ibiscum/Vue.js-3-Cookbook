@@ -12,7 +12,7 @@
     "axios": "^1.16.0"
   },
   "devDependencies": {
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^17.0.8"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

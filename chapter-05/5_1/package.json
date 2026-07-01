@@ -12,7 +12,7 @@
     
   },
   "devDependencies": {
-    "lint-staged": "^16.2.7"
+    "lint-staged": "^17.0.8"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
