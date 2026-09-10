@@ -14,7 +14,7 @@
     "@vuelidate/validators": "^2.0.4",
     "vite": "^7.3.5",
     "vite-plugin-vue-devtools": "^8.1.2",
-    "vitest": "^4.0.13",
+    "vitest": "^5.0.0",
     "vue": "^3.0.4"
   },
   "devDependencies": {
