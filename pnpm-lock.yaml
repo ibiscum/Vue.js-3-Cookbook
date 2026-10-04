@@ -760,8 +760,8 @@ importers:
   chapter-05/5_4:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@6.1.0)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -776,8 +776,8 @@ importers:
   chapter-05/5_5:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -792,8 +792,8 @@ importers:
   chapter-05/5_6:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -808,8 +808,8 @@ importers:
   chapter-05/5_7:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -836,8 +836,8 @@ importers:
   chapter-06/6_3:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -846,8 +846,8 @@ importers:
   chapter-06/6_4:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -856,8 +856,8 @@ importers:
   chapter-06/6_5:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -866,8 +866,8 @@ importers:
   chapter-06/6_6:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -876,8 +876,8 @@ importers:
   chapter-06/6_7:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -886,8 +886,8 @@ importers:
   chapter-06/6_8:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -896,8 +896,8 @@ importers:
   chapter-06/6_9:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -912,8 +912,8 @@ importers:
   chapter-07/7_2:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -922,8 +922,8 @@ importers:
   chapter-07/7_3:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -932,8 +932,8 @@ importers:
   chapter-07/7_4:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -942,8 +942,8 @@ importers:
   chapter-07/7_5:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -952,8 +952,8 @@ importers:
   chapter-07/7_6:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -962,8 +962,8 @@ importers:
   chapter-07/7_7:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     devDependencies:
       lint-staged:
         specifier: ^17.0.8
@@ -972,8 +972,8 @@ importers:
   chapter-07/7_8:
     dependencies:
       axios:
-        specifier: ^1.18.0
-        version: 1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+        specifier: ^1.20.0
+        version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
 
   chapter-08/8_1:
     dependencies:
@@ -3812,6 +3812,11 @@ packages:
 
   '@volar/typescript@2.4.28':
     resolution: {integrity: sha512-Ja6yvWrbis2QtN4ClAKreeUZPVYMARDYZl9LMEv1iQ1QdepB6wn0jTRxA9MftYmYa4DQ4k/DaSZpFPUfxl8giw==}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@vue-macros/common@3.1.2':
     resolution: {integrity: sha512-h9t4ArDdniO9ekYHAD95t9AZcAbb19lEGK+26iAjUODOIJKmObDNBSe4+6ELQAA3vtYiFPPBtHh7+cQCKi3Dng==}
@@ -4577,8 +4582,8 @@ packages:
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
 
-  axios@1.18.0:
-    resolution: {integrity: sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==}
+  axios@1.20.0:
+    resolution: {integrity: sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==}
 
   babel-eslint@10.1.0:
     resolution: {integrity: sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==}
@@ -8463,6 +8468,7 @@ packages:
 
   path-dirname@1.0.2:
     resolution: {integrity: sha512-ALzNPpyNq9AqXMBjeymIjFDAkAFH06mHJH/cSBHAgU0s4vfpBn6b2nf8tiRLvagKD8RbTpq2FKTBg7cl9l3c7Q==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   path-exists@2.1.0:
     resolution: {integrity: sha512-yTltuKuhtNeFJKa1PiRzfLAU5182q1y4Eb4XCJ3PBqyzEDkAZRzBrKKBct682ls9reBVHf9udYLN5Nd+K1B9BQ==}
@@ -10706,6 +10712,7 @@ packages:
     engines: {node: '>=v14.21.3'}
     peerDependencies:
       vite: ^6.0.0 || ^7.0.0 || ^8.0.0
+      vue: '*'
 
   vite-plugin-vue-inspector@6.0.0:
     resolution: {integrity: sha512-OpyITJLgZNibxlrik1EmRtvXHDjLRxNPsWkGFTERZs2LgMEdG4W0WoFt5GIgp3a3jRou+eJR8U1zOBk/XQgEbw==}
@@ -14514,11 +14521,13 @@ snapshots:
 
   '@volar/source-map@2.4.28': {}
 
-  '@volar/typescript@2.4.28':
+  '@volar/typescript@2.4.28(typescript@7.0.2)':
     dependencies:
       '@volar/language-core': 2.4.28
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
+    optionalDependencies:
+      typescript: 7.0.2
 
   '@vue-macros/common@3.1.2(vue@3.0.4)':
     dependencies:
@@ -15752,12 +15761,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  agent-base@6.0.2(supports-color@6.1.0):
-    dependencies:
-      debug: 4.4.3(supports-color@6.1.0)
-    transitivePeerDependencies:
-      - supports-color
-
   aggregate-error@3.1.0:
     dependencies:
       clean-stack: 2.2.0
@@ -16060,21 +16063,11 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  axios@1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2):
+  axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       follow-redirects: 1.16.0(debug@4.4.3(supports-color@10.2.2))
       form-data: 4.0.6
       https-proxy-agent: 5.0.1(supports-color@10.2.2)
-      proxy-from-env: 2.1.0
-    transitivePeerDependencies:
-      - debug
-      - supports-color
-
-  axios@1.18.0(debug@4.4.3(supports-color@10.2.2))(supports-color@6.1.0):
-    dependencies:
-      follow-redirects: 1.16.0(debug@4.4.3(supports-color@10.2.2))
-      form-data: 4.0.6
-      https-proxy-agent: 5.0.1(supports-color@6.1.0)
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
@@ -19594,13 +19587,6 @@ snapshots:
     dependencies:
       agent-base: 6.0.2(supports-color@10.2.2)
       debug: 4.4.3(supports-color@10.2.2)
-    transitivePeerDependencies:
-      - supports-color
-
-  https-proxy-agent@5.0.1(supports-color@6.1.0):
-    dependencies:
-      agent-base: 6.0.2(supports-color@6.1.0)
-      debug: 4.4.3(supports-color@6.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -24024,10 +24010,10 @@ snapshots:
       vite: 7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)
       vite-plugin-inspect: 11.4.1(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0))
       vite-plugin-vue-inspector: 6.0.0(supports-color@10.2.2)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0))
+      vue: 3.0.4
     transitivePeerDependencies:
       - '@nuxt/kit'
       - supports-color
-      - vue
 
   vite-plugin-vue-inspector@6.0.0(supports-color@10.2.2)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)):
     dependencies:
@@ -24385,7 +24371,7 @@ snapshots:
 
   vue-tsc@3.3.6(typescript@7.0.2):
     dependencies:
-      '@volar/typescript': 2.4.28
+      '@volar/typescript': 2.4.28(typescript@7.0.2)
       '@vue/language-core': 3.3.6
       typescript: 7.0.2
 
