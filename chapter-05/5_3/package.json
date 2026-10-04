@@ -14,7 +14,7 @@
     
     "lint-staged": "^17.0.8",
     "stylus": "^0.64.0",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^9.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
