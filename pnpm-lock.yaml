@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@eslint/js':
         specifier: ^10.0.1
-        version: 10.0.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))
+        version: 10.0.1(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))
       '@vue/eslint-config-typescript':
         specifier: ^14.7.0
-        version: 14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
+        version: 14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
       eslint:
         specifier: ^10.8.1
-        version: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
+        version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-oxlint:
         specifier: ~1.56.0
         version: 1.56.0
       eslint-plugin-vue:
         specifier: ^10.8.0
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       globals:
         specifier: ^17.6.0
         version: 17.6.0
@@ -43,16 +43,16 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.6.2
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
       stylus:
         specifier: ^0.64.0
-        version: 0.64.0(supports-color@6.1.0)
+        version: 0.64.0(supports-color@10.2.2)
       stylus-loader:
         specifier: ^9.0.0
-        version: 9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
+        version: 9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -68,7 +68,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.5.1
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -115,13 +115,13 @@ importers:
         version: 6.0.5(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0))(vue@3.0.4)
       '@vitest/eslint-plugin':
         specifier: ^1.6.27
-        version: 1.6.27(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)(vitest@5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)))
+        version: 1.6.27(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)(vitest@5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)))
       '@vue/eslint-config-typescript':
         specifier: ^14.6.0
-        version: 14.7.0(eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
+        version: 14.7.0(eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       '@vue/test-utils':
         specifier: ^2.5.1
-        version: 2.5.1(@vue/compiler-dom@3.5.41)(@vue/server-renderer@3.5.41)(vue@3.0.4)
+        version: 2.5.1(@vue/compiler-dom@3.5.39)(@vue/server-renderer@3.5.41)(vue@3.0.4)
       '@vue/tsconfig':
         specifier: ^0.8.1
         version: 0.8.1(typescript@7.0.2)(vue@3.0.4)
@@ -130,7 +130,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ~10.6.2
-        version: 10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       jiti:
         specifier: ^2.6.1
         version: 2.6.1
@@ -182,7 +182,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.7.0
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       globals:
         specifier: ^17.6.0
         version: 17.6.0
@@ -204,7 +204,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.6.2
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -229,7 +229,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.6.1
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -257,16 +257,16 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.5.1
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
       stylelint:
         specifier: ^17.14.0
-        version: 17.14.0(supports-color@6.1.0)(typescript@7.0.2)
+        version: 17.14.0(supports-color@10.2.2)(typescript@7.0.2)
       stylelint-config-standard:
         specifier: ^40.0.0
-        version: 40.0.0(stylelint@17.14.0(supports-color@6.1.0)(typescript@7.0.2))
+        version: 40.0.0(stylelint@17.14.0(supports-color@10.2.2)(typescript@7.0.2))
       stylus:
         specifier: ^0.64.0
         version: 0.64.0(supports-color@10.2.2)
@@ -294,7 +294,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.5.1
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -816,7 +816,7 @@ importers:
         version: 17.0.8
       postcss-nesting:
         specifier: ^14.0.0
-        version: 14.0.0(postcss@8.5.16)
+        version: 14.0.0(postcss@8.5.26)
       vite:
         specifier: ^7.3.5
         version: 7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)
@@ -979,13 +979,13 @@ importers:
     dependencies:
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@7.0.2)(vue@3.0.4)
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.4)
       vue:
         specifier: ^3.0.4
         version: 3.0.4
       vue-router:
         specifier: ^5.0.1
-        version: 5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@7.0.2)(vue@3.0.4))(vue@3.0.4)
+        version: 5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.4))(vue@3.0.4)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
@@ -998,7 +998,7 @@ importers:
         version: 1.6.27(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(vitest@5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)))
       '@vue/test-utils':
         specifier: ^2.5.1
-        version: 2.5.1(@vue/compiler-dom@3.5.41)(@vue/server-renderer@3.5.41)(vue@3.0.4)
+        version: 2.5.1(@vue/compiler-dom@3.5.39)(@vue/server-renderer@3.5.41)(vue@3.0.4)
       eslint:
         specifier: ^10.8.1
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
@@ -1050,16 +1050,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@6.1.0)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@6.1.0)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(webpack@4.47.0(supports-color@6.1.0))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)
@@ -1090,16 +1090,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1130,16 +1130,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1170,16 +1170,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1210,7 +1210,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^10.5.1
-        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -1244,16 +1244,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.4.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1434,19 +1434,19 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-plugin-router':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
       '@vue/cli-service':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1472,24 +1472,24 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4
       vuex:
-        specifier: ^3.4.0
-        version: 3.6.2(vue@3.0.4)
+        specifier: ^4.1.0
+        version: 4.1.0(vue@3.0.4)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-plugin-vuex':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
       '@vue/cli-service':
         specifier: ~4.5.0
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^5.0.2
-        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.1.0
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1517,16 +1517,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.0.1
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1535,7 +1535,7 @@ importers:
         version: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-plugin-vue:
         specifier: ^5.0.0
-        version: 5.2.3(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@6.1.0)
+        version: 5.2.3(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       lint-staged:
         specifier: ^17.0.8
         version: 17.0.8
@@ -1551,16 +1551,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.0.1
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1594,7 +1594,7 @@ importers:
         version: 41.10.7(supports-color@10.2.2)
       electron-debug:
         specifier: ^3.2.0
-        version: 3.2.0(supports-color@6.1.0)
+        version: 3.2.0(supports-color@10.2.2)
       electron-devtools-installer:
         specifier: ^4.0.0
         version: 4.0.0
@@ -1613,16 +1613,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.0.1
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1647,16 +1647,16 @@ importers:
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
       '@vue/cli-plugin-eslint':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       '@vue/cli-service':
         specifier: ^4.0.4
-        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+        version: 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/eslint-config-airbnb':
         specifier: ^4.0.0
-        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+        version: 4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       babel-eslint:
         specifier: ^10.0.1
         version: 10.1.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1674,13 +1674,13 @@ importers:
     dependencies:
       pinia:
         specifier: ^3.0.4
-        version: 3.0.4(typescript@7.0.2)(vue@3.0.4)
+        version: 3.0.4(typescript@5.9.3)(vue@3.0.4)
       vue:
         specifier: ^3.0.4
         version: 3.0.4
       vue-router:
         specifier: ^5.0.4
-        version: 5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@7.0.2)(vue@3.0.4))(vue@3.0.4)
+        version: 5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.4))(vue@3.0.4)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.4
@@ -7943,11 +7943,6 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@3.3.15:
-    resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-
   nanoid@3.3.18:
     resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -10796,10 +10791,10 @@ packages:
       webpack-plugin-vuetify:
         optional: true
 
-  vuex@3.6.2:
-    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+  vuex@4.1.0:
+    resolution: {integrity: sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==}
     peerDependencies:
-      vue: ^2.0.0
+      vue: ^3.2.0
 
   w3c-xmlserializer@5.0.0:
     resolution: {integrity: sha512-o8qghlI8NZHU1lLPrpi2+Uq7abh4GGPpYANlalzWxyWteJOCsr/P+oPBA49TOLu5FTZO4d3F9MnWJfiMo4BkmA==}
@@ -12975,11 +12970,6 @@ snapshots:
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))':
-    dependencies:
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
-      eslint-visitor-keys: 3.4.3
-
   '@eslint-community/regexpp@4.12.2': {}
 
   '@eslint/config-array@0.23.5(supports-color@10.2.2)':
@@ -13006,9 +12996,9 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/js@10.0.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))':
+  '@eslint/js@10.0.1(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))':
     optionalDependencies:
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
+      eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
 
   '@eslint/js@9.39.4': {}
 
@@ -13265,7 +13255,7 @@ snapshots:
       detect-libc: 2.1.2
       is-glob: 4.0.3
       node-addon-api: 7.1.1
-      picomatch: 4.0.7
+      picomatch: 4.0.4
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.5.6
       '@parcel/watcher-darwin-arm64': 2.5.6
@@ -13787,7 +13777,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
@@ -13798,22 +13787,6 @@ snapshots:
       '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       '@typescript-eslint/visitor-keys': 8.57.2
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      ignore: 7.0.6
-      natural-compare: 1.4.0
-      ts-api-utils: 2.5.0(typescript@7.0.2)
-      typescript: 7.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  '@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)':
-    dependencies:
-      '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/scope-manager': 8.57.2
-      '@typescript-eslint/type-utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/visitor-keys': 8.57.2
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       ignore: 7.0.6
       natural-compare: 1.4.0
       ts-api-utils: 2.5.0(typescript@7.0.2)
@@ -13832,7 +13805,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
@@ -13842,18 +13814,6 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.57.2
       debug: 4.4.3(supports-color@10.2.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      typescript: 7.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  '@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)':
-    dependencies:
-      '@typescript-eslint/scope-manager': 8.57.2
-      '@typescript-eslint/types': 8.57.2
-      '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/visitor-keys': 8.57.2
-      debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -13873,18 +13833,17 @@ snapshots:
 
   '@typescript-eslint/project-service@8.57.2(supports-color@10.2.2)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.68.0(typescript@5.9.3)
-      '@typescript-eslint/types': 8.68.0
+      '@typescript-eslint/tsconfig-utils': 8.57.2(typescript@5.9.3)
+      '@typescript-eslint/types': 8.57.2
       debug: 4.4.3(supports-color@10.2.2)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/project-service@8.57.2(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.68.0(typescript@7.0.2)
-      '@typescript-eslint/types': 8.68.0
+      '@typescript-eslint/tsconfig-utils': 8.57.2(typescript@7.0.2)
+      '@typescript-eslint/types': 8.57.2
       debug: 4.4.3(supports-color@10.2.2)
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -13892,8 +13851,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.57.2(supports-color@6.1.0)(typescript@7.0.2)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.68.0(typescript@7.0.2)
-      '@typescript-eslint/types': 8.68.0
+      '@typescript-eslint/tsconfig-utils': 8.57.2(typescript@7.0.2)
+      '@typescript-eslint/types': 8.57.2
       debug: 4.4.3(supports-color@6.1.0)
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -13931,7 +13890,6 @@ snapshots:
   '@typescript-eslint/tsconfig-utils@8.57.2(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
-    optional: true
 
   '@typescript-eslint/tsconfig-utils@8.57.2(typescript@7.0.2)':
     dependencies:
@@ -13956,7 +13914,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/type-utils@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
@@ -13965,18 +13922,6 @@ snapshots:
       '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       debug: 4.4.3(supports-color@10.2.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      ts-api-utils: 2.5.0(typescript@7.0.2)
-      typescript: 7.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  '@typescript-eslint/type-utils@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)':
-    dependencies:
-      '@typescript-eslint/types': 8.57.2
-      '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       ts-api-utils: 2.5.0(typescript@7.0.2)
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -14000,7 +13945,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/typescript-estree@8.57.2(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
@@ -14073,7 +14017,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@typescript-eslint/utils@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
@@ -14082,17 +14025,6 @@ snapshots:
       '@typescript-eslint/types': 8.57.2
       '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      typescript: 7.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  '@typescript-eslint/utils@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)':
-    dependencies:
-      '@eslint-community/eslint-utils': 4.10.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))
-      '@typescript-eslint/scope-manager': 8.57.2
-      '@typescript-eslint/types': 8.57.2
-      '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -14207,13 +14139,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/eslint-plugin@1.6.27(@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)(vitest@5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)))':
+  '@vitest/eslint-plugin@1.6.27(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)(vitest@5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)))':
     dependencies:
       '@typescript-eslint/scope-manager': 8.68.0
       '@typescript-eslint/utils': 8.68.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       typescript: 7.0.2
       vitest: 5.0.0(@types/node@26.3.0)(jsdom@29.1.1)(vite@7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0))
     transitivePeerDependencies:
@@ -14498,11 +14429,11 @@ snapshots:
 
   '@vue/cli-overlay@4.5.19': {}
 
-  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)':
+  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.7(supports-color@10.2.2))(core-js@3.49.0)(supports-color@10.2.2)(vue@3.0.4)
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.4.1(@babel/core@7.29.7(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2))
       cache-loader: 4.1.0(webpack@4.47.0(supports-color@10.2.2))
@@ -14515,11 +14446,11 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@6.1.0)(vue@3.0.4)':
+  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(core-js@3.49.0)(supports-color@6.1.0)(vue@3.0.4)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@6.1.0)
       '@vue/babel-preset-app': 4.5.19(@babel/core@7.29.7(supports-color@6.1.0))(core-js@3.49.0)(supports-color@6.1.0)(vue@3.0.4)
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.4.1(@babel/core@7.29.7(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0))
       cache-loader: 4.1.0(webpack@4.47.0(supports-color@6.1.0))
@@ -14532,9 +14463,9 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)':
+  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-loader: 2.2.1(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2))
@@ -14547,9 +14478,9 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)':
+  '@vue/cli-plugin-eslint@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
       eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       eslint-loader: 2.2.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0))
@@ -14562,25 +14493,25 @@ snapshots:
       - webpack-cli
       - webpack-command
 
-  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
+  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
 
-  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
+  '@vue/cli-plugin-router@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       '@vue/cli-shared-utils': 4.5.19
 
-  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
+  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
 
-  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
+  '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
 
-  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)':
+  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)':
     dependencies:
       '@intervolga/optimize-cssnano-plugin': 1.0.6(webpack@4.47.0(supports-color@10.2.2))
       '@soda/friendly-errors-webpack-plugin': 1.8.1(webpack@4.47.0(supports-color@10.2.2))
@@ -14589,8 +14520,8 @@ snapshots:
       '@types/webpack': 4.41.40
       '@types/webpack-dev-server': 3.11.6(debug@4.4.3(supports-color@10.2.2))
       '@vue/cli-overlay': 4.5.19
-      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
-      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
       '@vue/cli-shared-utils': 4.5.19
       '@vue/component-compiler-utils': 3.3.0(ejs@3.1.10)(lodash@4.18.1)
       '@vue/preload-webpack-plugin': 1.1.2(html-webpack-plugin@3.2.0(webpack@4.47.0(supports-color@10.2.2)))(webpack@4.47.0(supports-color@10.2.2))
@@ -14639,8 +14570,8 @@ snapshots:
       webpack-merge: 4.2.2
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.35
-      sass-loader: 12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2))
-      stylus-loader: 9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2))
+      sass-loader: 12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
+      stylus-loader: 9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       vue-loader-v16: vue-loader@16.8.3(@vue/compiler-sfc@3.5.35)(vue@3.0.4)(webpack@4.47.0(supports-color@10.2.2))
       vue-template-compiler: 2.7.16
     transitivePeerDependencies:
@@ -14706,7 +14637,7 @@ snapshots:
       - webpack-command
       - whiskers
 
-  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)':
+  '@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)':
     dependencies:
       '@intervolga/optimize-cssnano-plugin': 1.0.6(webpack@4.47.0(supports-color@6.1.0))
       '@soda/friendly-errors-webpack-plugin': 1.8.1(webpack@4.47.0(supports-color@6.1.0))
@@ -14715,8 +14646,8 @@ snapshots:
       '@types/webpack': 4.41.40
       '@types/webpack-dev-server': 3.11.6(debug@4.4.3(supports-color@6.1.0))
       '@vue/cli-overlay': 4.5.19
-      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
-      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+      '@vue/cli-plugin-router': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
+      '@vue/cli-plugin-vuex': 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))
       '@vue/cli-shared-utils': 4.5.19
       '@vue/component-compiler-utils': 3.3.0(ejs@3.1.10)(lodash@4.18.1)
       '@vue/preload-webpack-plugin': 1.1.2(html-webpack-plugin@3.2.0(webpack@4.47.0(supports-color@6.1.0)))(webpack@4.47.0(supports-color@6.1.0))
@@ -14765,8 +14696,8 @@ snapshots:
       webpack-merge: 4.2.2
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.35
-      sass-loader: 12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0))
-      stylus-loader: 9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0))
+      sass-loader: 12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
+      stylus-loader: 9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       vue-loader-v16: vue-loader@16.8.3(@vue/compiler-sfc@3.5.35)(vue@3.0.4)(webpack@4.47.0(supports-color@6.1.0))
       vue-template-compiler: 2.7.16
     transitivePeerDependencies:
@@ -14933,7 +14864,7 @@ snapshots:
       '@vue/shared': 3.5.35
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.16
+      postcss: 8.5.26
       source-map-js: 1.2.1
 
   '@vue/compiler-sfc@3.5.41':
@@ -15076,10 +15007,10 @@ snapshots:
 
   '@vue/devtools-shared@8.1.2': {}
 
-  '@vue/eslint-config-airbnb@4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))':
+  '@vue/eslint-config-airbnb@4.0.1(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))':
     dependencies:
       eslint-config-airbnb-base: 13.2.0(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))
-      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@10.2.2))
+      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint-import-resolver-webpack@0.11.1)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -15088,35 +15019,35 @@ snapshots:
       - supports-color
       - webpack
 
-  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))':
+  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@10.2.2)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-config-airbnb-base: 14.2.1(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))
       eslint-import-resolver-node: 0.3.9(supports-color@10.2.2)
-      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint-import-resolver-webpack@0.13.10)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
       - webpack
 
-  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(webpack@4.47.0(supports-color@6.1.0))':
+  '@vue/eslint-config-airbnb@5.3.0(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4))(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))':
     dependencies:
-      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.35)(ejs@3.1.10)(lodash@4.18.1)(prettier@3.7.4)(sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)))(supports-color@6.1.0)(typescript@7.0.2)(vue-template-compiler@2.7.16)(vue@3.0.4)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       eslint-config-airbnb-base: 14.2.1(eslint-plugin-import@2.32.0)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))
       eslint-import-resolver-node: 0.3.9(supports-color@6.1.0)
-      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@6.1.0))
+      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(typescript@7.0.2))(eslint-import-resolver-webpack@0.13.10)(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)
     transitivePeerDependencies:
       - supports-color
       - webpack
 
-  '@vue/eslint-config-typescript@14.7.0(eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
+  '@vue/eslint-config-typescript@14.7.0(eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)':
     dependencies:
       '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      eslint-plugin-vue: 10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
+      eslint-plugin-vue: 10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       fast-glob: 3.3.3
       typescript-eslint: 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       vue-eslint-parser: 10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -15125,16 +15056,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/eslint-config-typescript@14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)':
+  '@vue/eslint-config-typescript@14.7.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
-      eslint-plugin-vue: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2))
+      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
+      eslint-plugin-vue: 10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2))
       fast-glob: 3.3.3
-      typescript-eslint: 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      vue-eslint-parser: 10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)
+      typescript-eslint: 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      vue-eslint-parser: 10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
     optionalDependencies:
-      typescript: 7.0.2
+      typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
 
@@ -15204,6 +15135,15 @@ snapshots:
   '@vue/shared@3.5.39': {}
 
   '@vue/shared@3.5.41': {}
+
+  '@vue/test-utils@2.5.1(@vue/compiler-dom@3.5.39)(@vue/server-renderer@3.5.41)(vue@3.0.4)':
+    dependencies:
+      '@vue/compiler-dom': 3.5.39
+      js-beautify: 2.0.3
+      vue: 3.0.4
+      vue-component-type-helpers: 3.3.11
+    optionalDependencies:
+      '@vue/server-renderer': 3.5.41
 
   '@vue/test-utils@2.5.1(@vue/compiler-dom@3.5.41)(@vue/server-renderer@3.5.41)(vue@3.0.4)':
     dependencies:
@@ -15952,11 +15892,11 @@ snapshots:
 
   bn.js@5.2.3: {}
 
-  body-parser@1.19.1(supports-color@6.1.0):
+  body-parser@1.19.1(supports-color@10.2.2):
     dependencies:
       bytes: 3.1.1
       content-type: 1.0.5
-      debug: 2.6.9(supports-color@6.1.0)
+      debug: 2.6.9(supports-color@10.2.2)
       depd: 1.1.2
       http-errors: 1.8.1
       iconv-lite: 0.4.24
@@ -17360,10 +17300,10 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-debug@3.2.0(supports-color@6.1.0):
+  electron-debug@3.2.0(supports-color@10.2.2):
     dependencies:
       electron-is-dev: 1.2.0
-      electron-localshortcut: 3.2.1(supports-color@6.1.0)
+      electron-localshortcut: 3.2.1(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -17375,9 +17315,9 @@ snapshots:
 
   electron-is-dev@1.2.0: {}
 
-  electron-localshortcut@3.2.1(supports-color@6.1.0):
+  electron-localshortcut@3.2.1(supports-color@10.2.2):
     dependencies:
-      debug: 4.4.3(supports-color@6.1.0)
+      debug: 4.4.3(supports-color@10.2.2)
       electron-is-accelerator: 0.1.2
       keyboardevent-from-electron-accelerator: 2.0.0
       keyboardevents-areequal: 0.2.2
@@ -17644,10 +17584,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@10.2.2)):
+  eslint-import-resolver-webpack@0.11.1(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       array-find: 1.0.0
-      debug: 2.6.9(supports-color@6.1.0)
+      debug: 2.6.9(supports-color@10.2.2)
       enhanced-resolve: 0.9.1
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint-import-resolver-webpack@0.11.1)(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       find-root: 1.1.0
@@ -17657,11 +17597,11 @@ snapshots:
       node-libs-browser: 2.2.1
       resolve: 1.22.11
       semver: 5.7.2
-      webpack: 4.47.0(supports-color@10.2.2)
+      webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2)):
+  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       debug: 3.2.7(supports-color@10.2.2)
       enhanced-resolve: 0.9.1
@@ -17674,11 +17614,11 @@ snapshots:
       lodash: 4.18.1
       resolve: 2.0.0-next.6
       semver: 5.7.2
-      webpack: 4.47.0(supports-color@10.2.2)
+      webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@6.1.0)):
+  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       debug: 3.2.7(supports-color@6.1.0)
       enhanced-resolve: 0.9.1
@@ -17691,7 +17631,7 @@ snapshots:
       lodash: 4.18.1
       resolve: 2.0.0-next.6
       semver: 5.7.2
-      webpack: 4.47.0(supports-color@6.1.0)
+      webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -17722,7 +17662,7 @@ snapshots:
       '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-import-resolver-node: 0.3.9(supports-color@10.2.2)
-      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@10.2.2))
+      eslint-import-resolver-webpack: 0.11.1(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -17733,7 +17673,7 @@ snapshots:
       '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-import-resolver-node: 0.3.9(supports-color@10.2.2)
-      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@4.47.0(supports-color@10.2.2))
+      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@10.2.2)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -17744,7 +17684,7 @@ snapshots:
       '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@6.1.0)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       eslint-import-resolver-node: 0.3.9(supports-color@6.1.0)
-      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@4.47.0(supports-color@6.1.0))
+      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(supports-color@6.1.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -17839,7 +17779,7 @@ snapshots:
     dependencies:
       jsonc-parser: 3.3.1
 
-  eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)):
+  eslint-plugin-vue@10.6.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
@@ -17850,7 +17790,7 @@ snapshots:
       vue-eslint-parser: 10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
       xml-name-validator: 4.0.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
+      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
 
   eslint-plugin-vue@10.7.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)):
     dependencies:
@@ -17891,30 +17831,10 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
 
-  eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)):
-    dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
-      natural-compare: 1.4.0
-      nth-check: 2.1.1
-      postcss-selector-parser: 7.1.1
-      semver: 7.7.4
-      vue-eslint-parser: 10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)
-      xml-name-validator: 4.0.0
-    optionalDependencies:
-      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-
   eslint-plugin-vue@5.2.3(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       vue-eslint-parser: 5.0.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)
-    transitivePeerDependencies:
-      - supports-color
-
-  eslint-plugin-vue@5.2.3(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@6.1.0):
-    dependencies:
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      vue-eslint-parser: 5.0.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@6.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -18167,17 +18087,17 @@ snapshots:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.19.1(supports-color@6.1.0)
+      body-parser: 1.19.1(supports-color@10.2.2)
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.4.1
       cookie-signature: 1.0.6
-      debug: 2.6.9(supports-color@6.1.0)
+      debug: 2.6.9(supports-color@10.2.2)
       depd: 1.1.2
       encodeurl: 1.0.2
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 1.1.2(supports-color@6.1.0)
+      finalhandler: 1.1.2(supports-color@10.2.2)
       fresh: 0.5.2
       merge-descriptors: 1.0.1
       methods: 1.1.2
@@ -18188,7 +18108,7 @@ snapshots:
       qs: 6.9.6
       range-parser: 1.2.1
       safe-buffer: 5.2.1
-      send: 0.17.2(supports-color@6.1.0)
+      send: 0.17.2(supports-color@10.2.2)
       serve-static: 1.14.2(supports-color@10.2.2)
       setprototypeof: 1.2.0
       statuses: 1.5.0
@@ -18473,9 +18393,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.1.2(supports-color@6.1.0):
+  finalhandler@1.1.2(supports-color@10.2.2):
     dependencies:
-      debug: 2.6.9(supports-color@6.1.0)
+      debug: 2.6.9(supports-color@10.2.2)
       encodeurl: 1.0.2
       escape-html: 1.0.3
       on-finished: 2.3.0
@@ -20236,8 +20156,6 @@ snapshots:
 
   nanoid@3.3.13: {}
 
-  nanoid@3.3.15: {}
-
   nanoid@3.3.18: {}
 
   nanomatch@1.2.13(supports-color@10.2.2):
@@ -20813,6 +20731,13 @@ snapshots:
 
   pify@4.0.1: {}
 
+  pinia@3.0.4(typescript@5.9.3)(vue@3.0.4):
+    dependencies:
+      '@vue/devtools-api': 7.7.9
+      vue: 3.0.4
+    optionalDependencies:
+      typescript: 5.9.3
+
   pinia@3.0.4(typescript@7.0.2)(vue@3.0.4):
     dependencies:
       '@vue/devtools-api': 7.7.9
@@ -21167,11 +21092,11 @@ snapshots:
       icss-utils: 5.1.0(postcss@8.5.16)
       postcss: 8.5.16
 
-  postcss-nesting@14.0.0(postcss@8.5.16):
+  postcss-nesting@14.0.0(postcss@8.5.26):
     dependencies:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
-      postcss: 8.5.16
+      postcss: 8.5.26
       postcss-selector-parser: 7.1.1
 
   postcss-normalize-charset@4.0.1:
@@ -21461,7 +21386,7 @@ snapshots:
 
   postcss@8.5.16:
     dependencies:
-      nanoid: 3.3.15
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -22033,20 +21958,11 @@ snapshots:
     optionalDependencies:
       sass: 1.32.12
 
-  sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@10.2.2)):
+  sass-loader@12.4.0(sass@1.99.0)(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      webpack: 4.47.0(supports-color@10.2.2)
-    optionalDependencies:
-      sass: 1.99.0
-    optional: true
-
-  sass-loader@12.4.0(sass@1.99.0)(webpack@4.47.0(supports-color@6.1.0)):
-    dependencies:
-      klona: 2.0.6
-      neo-async: 2.6.2
-      webpack: 4.47.0(supports-color@6.1.0)
+      webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
     optionalDependencies:
       sass: 1.99.0
     optional: true
@@ -22135,24 +22051,6 @@ snapshots:
   send@0.17.2(supports-color@10.2.2):
     dependencies:
       debug: 2.6.9(supports-color@10.2.2)
-      depd: 1.1.2
-      destroy: 1.0.4
-      encodeurl: 1.0.2
-      escape-html: 1.0.3
-      etag: 1.8.1
-      fresh: 0.5.2
-      http-errors: 1.8.1
-      mime: 1.6.0
-      ms: 2.1.3
-      on-finished: 2.3.0
-      range-parser: 1.2.1
-      statuses: 1.5.0
-    transitivePeerDependencies:
-      - supports-color
-
-  send@0.17.2(supports-color@6.1.0):
-    dependencies:
-      debug: 2.6.9(supports-color@6.1.0)
       depd: 1.1.2
       destroy: 1.0.4
       encodeurl: 1.0.2
@@ -22762,19 +22660,10 @@ snapshots:
     dependencies:
       stylelint: 17.14.0(supports-color@10.2.2)(typescript@7.0.2)
 
-  stylelint-config-recommended@18.0.0(stylelint@17.14.0(supports-color@6.1.0)(typescript@7.0.2)):
-    dependencies:
-      stylelint: 17.14.0(supports-color@6.1.0)(typescript@7.0.2)
-
   stylelint-config-standard@40.0.0(stylelint@17.14.0(supports-color@10.2.2)(typescript@7.0.2)):
     dependencies:
       stylelint: 17.14.0(supports-color@10.2.2)(typescript@7.0.2)
       stylelint-config-recommended: 18.0.0(stylelint@17.14.0(supports-color@10.2.2)(typescript@7.0.2))
-
-  stylelint-config-standard@40.0.0(stylelint@17.14.0(supports-color@6.1.0)(typescript@7.0.2)):
-    dependencies:
-      stylelint: 17.14.0(supports-color@6.1.0)(typescript@7.0.2)
-      stylelint-config-recommended: 18.0.0(stylelint@17.14.0(supports-color@6.1.0)(typescript@7.0.2))
 
   stylelint@17.14.0(supports-color@10.2.2)(typescript@7.0.2):
     dependencies:
@@ -22817,57 +22706,6 @@ snapshots:
       - supports-color
       - typescript
 
-  stylelint@17.14.0(supports-color@6.1.0)(typescript@7.0.2):
-    dependencies:
-      '@csstools/css-calc': 3.2.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
-      '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
-      '@csstools/css-syntax-patches-for-csstree': 1.1.6(css-tree@3.2.1)
-      '@csstools/css-tokenizer': 4.0.0
-      '@csstools/media-query-list-parser': 5.0.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
-      '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.4)
-      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.4)
-      colord: 2.10.0
-      cosmiconfig: 9.0.2(typescript@7.0.2)
-      css-functions-list: 3.3.3
-      css-tree: 3.2.1
-      debug: 4.4.3(supports-color@6.1.0)
-      fast-glob: 3.3.3
-      fastest-levenshtein: 1.0.16
-      file-entry-cache: 11.1.5
-      global-modules: 2.0.0
-      globby: 16.2.0
-      globjoin: 0.1.4
-      html-tags: 5.1.0
-      ignore: 7.0.5
-      import-meta-resolve: 4.2.0
-      mathml-tag-names: 4.0.0
-      meow: 14.1.0
-      micromatch: 4.0.8
-      normalize-path: 3.0.0
-      picocolors: 1.1.1
-      postcss: 8.5.16
-      postcss-safe-parser: 7.0.1(postcss@8.5.16)
-      postcss-selector-parser: 7.1.4
-      postcss-value-parser: 4.2.0
-      string-width: 8.2.1
-      supports-hyperlinks: 4.5.0
-      svg-tags: 1.0.0
-      table: 6.9.0
-      write-file-atomic: 7.0.1
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
-  stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@4.47.0(supports-color@10.2.2)):
-    dependencies:
-      '@types/stylus': 0.48.43
-      normalize-path: 3.0.0
-      stylus: 0.64.0(supports-color@10.2.2)
-      tinyglobby: 0.2.17
-    optionalDependencies:
-      webpack: 4.47.0(supports-color@10.2.2)
-    optional: true
-
   stylus-loader@9.0.0(stylus@0.64.0(supports-color@10.2.2))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       '@types/stylus': 0.48.43
@@ -22877,16 +22715,6 @@ snapshots:
     optionalDependencies:
       webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
 
-  stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@4.47.0(supports-color@6.1.0)):
-    dependencies:
-      '@types/stylus': 0.48.43
-      normalize-path: 3.0.0
-      stylus: 0.64.0(supports-color@6.1.0)
-      tinyglobby: 0.2.17
-    optionalDependencies:
-      webpack: 4.47.0(supports-color@6.1.0)
-    optional: true
-
   stylus-loader@9.0.0(stylus@0.64.0(supports-color@6.1.0))(webpack@5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)):
     dependencies:
       '@types/stylus': 0.48.43
@@ -22895,6 +22723,7 @@ snapshots:
       tinyglobby: 0.2.17
     optionalDependencies:
       webpack: 5.106.1(esbuild@0.27.7)(uglify-js@3.19.3)
+    optional: true
 
   stylus@0.64.0(supports-color@10.2.2):
     dependencies:
@@ -22915,6 +22744,7 @@ snapshots:
       source-map: 0.7.6
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   sumchecker@3.0.1(supports-color@10.2.2):
     dependencies:
@@ -23299,6 +23129,17 @@ snapshots:
 
   typedarray@0.0.6: {}
 
+  typescript-eslint@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3):
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+
   typescript-eslint@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2):
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
@@ -23306,17 +23147,6 @@ snapshots:
       '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
       '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      typescript: 7.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  typescript-eslint@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2):
-    dependencies:
-      '@typescript-eslint/eslint-plugin': 8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2))(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/parser': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/typescript-estree': 8.57.2(supports-color@10.2.2)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.57.2(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2)(typescript@7.0.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -23652,33 +23482,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vue-eslint-parser@10.4.0(eslint@10.8.1(jiti@2.6.1)(supports-color@6.1.0))(supports-color@10.2.2):
-    dependencies:
-      debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@6.1.0)
-      eslint-scope: 9.1.2
-      eslint-visitor-keys: 5.0.1
-      espree: 11.2.0
-      esquery: 1.7.0
-      semver: 7.8.5
-    transitivePeerDependencies:
-      - supports-color
-
   vue-eslint-parser@5.0.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
-      eslint-scope: 4.0.3
-      eslint-visitor-keys: 1.3.0
-      espree: 4.1.0
-      esquery: 1.7.0
-      lodash: 4.18.1
-    transitivePeerDependencies:
-      - supports-color
-
-  vue-eslint-parser@5.0.0(eslint@10.8.1(jiti@2.6.1)(supports-color@10.2.2))(supports-color@6.1.0):
-    dependencies:
-      debug: 4.4.3(supports-color@6.1.0)
       eslint: 10.8.1(jiti@2.6.1)(supports-color@10.2.2)
       eslint-scope: 4.0.3
       eslint-visitor-keys: 1.3.0
@@ -23892,6 +23698,30 @@ snapshots:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.41(typescript@4.5.5)
 
+  vue-router@5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@5.9.3)(vue@3.0.4))(vue@3.0.4):
+    dependencies:
+      '@babel/generator': 7.29.1
+      '@vue-macros/common': 3.1.2(vue@3.0.4)
+      '@vue/devtools-api': 8.1.1
+      ast-walker-scope: 0.8.3
+      chokidar: 5.0.0
+      json5: 2.2.3
+      local-pkg: 1.1.2
+      magic-string: 0.30.21
+      mlly: 1.8.2
+      muggle-string: 0.4.1
+      pathe: 2.0.3
+      picomatch: 4.0.4
+      scule: 1.3.0
+      tinyglobby: 0.2.15
+      unplugin: 3.0.0
+      unplugin-utils: 0.3.1
+      vue: 3.0.4
+      yaml: 2.8.3
+    optionalDependencies:
+      '@vue/compiler-sfc': 3.5.35
+      pinia: 3.0.4(typescript@5.9.3)(vue@3.0.4)
+
   vue-router@5.0.4(@vue/compiler-sfc@3.5.35)(pinia@3.0.4(typescript@7.0.2)(vue@3.0.4))(vue@3.0.4):
     dependencies:
       '@babel/generator': 7.29.1
@@ -23957,8 +23787,9 @@ snapshots:
     optionalDependencies:
       typescript: 7.0.2
 
-  vuex@3.6.2(vue@3.0.4):
+  vuex@4.1.0(vue@3.0.4):
     dependencies:
+      '@vue/devtools-api': 6.6.4
       vue: 3.0.4
 
   w3c-xmlserializer@5.0.0:
