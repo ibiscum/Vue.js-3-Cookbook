@@ -816,7 +816,7 @@ importers:
         version: 17.0.8
       postcss-nesting:
         specifier: ^14.0.0
-        version: 14.0.0(postcss@8.5.16)
+        version: 14.0.0(postcss@8.5.26)
       vite:
         specifier: ^7.3.5
         version: 7.3.5(@types/node@26.3.0)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.46.1)(yaml@2.9.0)
@@ -1472,8 +1472,8 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4
       vuex:
-        specifier: ^3.4.0
-        version: 3.6.2(vue@3.0.4)
+        specifier: ^4.1.0
+        version: 4.1.0(vue@3.0.4)
     devDependencies:
       '@vue/cli-plugin-babel':
         specifier: ~4.5.0
@@ -10791,10 +10791,10 @@ packages:
       webpack-plugin-vuetify:
         optional: true
 
-  vuex@3.6.2:
-    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+  vuex@4.1.0:
+    resolution: {integrity: sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==}
     peerDependencies:
-      vue: ^2.0.0
+      vue: ^3.2.0
 
   w3c-xmlserializer@5.0.0:
     resolution: {integrity: sha512-o8qghlI8NZHU1lLPrpi2+Uq7abh4GGPpYANlalzWxyWteJOCsr/P+oPBA49TOLu5FTZO4d3F9MnWJfiMo4BkmA==}
@@ -21092,11 +21092,11 @@ snapshots:
       icss-utils: 5.1.0(postcss@8.5.16)
       postcss: 8.5.16
 
-  postcss-nesting@14.0.0(postcss@8.5.16):
+  postcss-nesting@14.0.0(postcss@8.5.26):
     dependencies:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
-      postcss: 8.5.16
+      postcss: 8.5.26
       postcss-selector-parser: 7.1.1
 
   postcss-normalize-charset@4.0.1:
@@ -23787,8 +23787,9 @@ snapshots:
     optionalDependencies:
       typescript: 7.0.2
 
-  vuex@3.6.2(vue@3.0.4):
+  vuex@4.1.0(vue@3.0.4):
     dependencies:
+      '@vue/devtools-api': 6.6.4
       vue: 3.0.4
 
   w3c-xmlserializer@5.0.0:
